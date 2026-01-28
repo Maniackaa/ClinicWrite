@@ -24,7 +24,7 @@ from keyboards.keyboards import (
     get_cancel_kb,
     get_phone_kb
 )
-from data.doctors_data import DOCTORS, PROFESSION_NAMES, DOCTOR_IDS, DOCTOR_IDS_REVERSE
+from data.doctors_data import DOCTORS, PROFESSION_NAMES, DOCTOR_IDS, DOCTOR_IDS_REVERSE, PROFESSION_KEY_MAP
 
 logger = structlog.get_logger(__name__)
 router = Router()
@@ -484,9 +484,11 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
 async def back_to_doctors(callback: CallbackQuery, bot: Bot):
     """Обработчик возврата к списку врачей"""
     try:
-        profession_key = callback.data.replace("back_docs_", "")
+        profession_key_short = callback.data.replace("back_docs_", "")
+        # Преобразуем обрезанный ключ в полный ключ профессии
+        profession_key = PROFESSION_KEY_MAP.get(profession_key_short, profession_key_short)
         profession_name = PROFESSION_NAMES.get(profession_key, profession_key)
-        logger.info(f'back_to_doctors: пользователь {callback.from_user.id}, профессия={profession_key}')
+        logger.info(f'back_to_doctors: пользователь {callback.from_user.id}, профессия={profession_key} (из {profession_key_short})')
         
         text = f"{profession_name}\n\nВыберите врача:"
         
