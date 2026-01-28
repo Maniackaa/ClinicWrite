@@ -105,7 +105,7 @@ async def channel_post_handler(message: Message, bot, scheduler) -> Any:
 async def cmd_start(message: Message, bot: Bot):
     """Обработчик команды /start с приветственным сообщением"""
     try:
-        logger.info(f'cmd_start: пользователь {message.from_user.id} ({message.from_user.username})')
+        logger.info(f'cmd_start: пользователь {message.from_user.id} ({message.from_user.username}) {message.chat.id}')
         welcome_text = """Здравствуй, королевский друг ROYAL Clinic. 
 Приглашаем вас в волшебный научный мир счастливого родительства!"""
         
@@ -490,11 +490,34 @@ async def back_to_doctors(callback: CallbackQuery, bot: Bot):
         
         text = f"{profession_name}\n\nВыберите врача:"
         
-        await callback.message.edit_text(
-            text,
-            reply_markup=get_doctors_kb(profession_key),
-            parse_mode=ParseMode.HTML
-        )
+        # Если сообщение содержит фото, удаляем его и отправляем новое сообщение
+        if callback.message.photo:
+            try:
+                await callback.message.delete()
+            except Exception as delete_error:
+                logger.warning(f'Не удалось удалить сообщение с фото: {delete_error}')
+            
+            await callback.message.answer(
+                text,
+                reply_markup=get_doctors_kb(profession_key),
+                parse_mode=ParseMode.HTML
+            )
+        else:
+            try:
+                await callback.message.edit_text(
+                    text,
+                    reply_markup=get_doctors_kb(profession_key),
+                    parse_mode=ParseMode.HTML
+                )
+            except Exception as edit_error:
+                # Если не удалось отредактировать (сообщение удалено), отправляем новое
+                logger.warning(f'Не удалось отредактировать сообщение при возврате к списку врачей, отправляем новое: {edit_error}')
+                await callback.message.answer(
+                    text,
+                    reply_markup=get_doctors_kb(profession_key),
+                    parse_mode=ParseMode.HTML
+                )
+        
         await callback.answer()
         logger.info(f'Возврат к списку врачей профессии {profession_key} для пользователя {callback.from_user.id}')
     except Exception as e:
