@@ -172,7 +172,7 @@ async def menu_price(callback: CallbackQuery, bot: Bot):
     """Обработчик кнопки Прайс"""
     try:
         logger.info(f'menu_price: пользователь {callback.from_user.id}')
-        text = "🔵 Прайс\n\nВыберите действие:"
+        text = "🟧 Прайс\n\nВыберите действие:"
         await callback.message.edit_text(
             text,
             reply_markup=get_price_kb(),
@@ -422,7 +422,7 @@ async def menu_appointment(callback: CallbackQuery, bot: Bot):
     """Обработчик кнопки Записаться на прием - показывает список профессий"""
     try:
         logger.info(f'menu_appointment: пользователь {callback.from_user.id}')
-        text = "🔵 Записаться на прием\n\nВыберите услугу:"
+        text = "🟧 Записаться на прием\n\nВыберите услугу:"
         
         await callback.message.edit_text(
             text,
