@@ -59,13 +59,30 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cp -r "$SCRIPT_DIR"/* "$PROJECT_DIR/" 2>/dev/null || true
 cp -r "$SCRIPT_DIR"/.git "$PROJECT_DIR/" 2>/dev/null || true
 
+# Установка системных зависимостей для PostgreSQL (нужны для psycopg2-binary)
+echo -e "${YELLOW}Установка системных зависимостей...${NC}"
+apt-get install -y \
+    python3 \
+    python3-venv \
+    python3-pip \
+    git \
+    curl \
+    libpq-dev \
+    postgresql-client \
+    postgresql-dev \
+    build-essential \
+    python3-dev
+
+# Обновляем PYTHON_VERSION после установки
+if command -v python3 &> /dev/null; then
+    PYTHON_VERSION="python3"
+fi
+
 # Установка Python и зависимостей
 echo -e "${YELLOW}Проверка Python...${NC}"
 if ! command -v $PYTHON_VERSION &> /dev/null; then
-    echo -e "${YELLOW}Установка Python 3...${NC}"
-    apt-get install -y python3 python3-venv python3-pip
-    # Обновляем PYTHON_VERSION после установки
-    PYTHON_VERSION="python3"
+    echo -e "${RED}Ошибка: Python 3 не установлен${NC}"
+    exit 1
 fi
 
 # Проверяем версию Python
