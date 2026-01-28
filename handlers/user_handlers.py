@@ -9,7 +9,6 @@ from aiogram.enums import ParseMode
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery, FSInputFile, InputFile, Contact, ReplyKeyboardRemove
-from aiogram.filters import ContentTypesFilter
 
 from config_data.conf import conf, BASE_DIR
 from main import send_telegram_message
@@ -94,7 +93,7 @@ async def channel_post_handler(message: Message, bot, scheduler) -> Any:
                 send_telegram_message,
                 "date",
                 run_date=send_at,
-                args=[conf.tg_bot.GROUP_2, new_text],
+                args=[conf.tg_bot.GROUP_ID, new_text],
                 id=f"send_{message.chat.id}_{send_at.timestamp()}"
             )
             logger.info(len(new_text))
@@ -411,14 +410,20 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
         logger.info(f'select_doctor: пользователь {callback.from_user.id}, callback_data={callback.data}')
         # Извлекаем ID врача и профессию из callback_data
         # Формат: doc_<doctor_id>_<profession>
-        parts = callback.data.replace("doc_", "").split("_", 1)
-        if len(parts) < 2:
+        # Профессия всегда в конце, разделяем с конца
+        callback_data_clean = callback.data.replace("doc_", "")
+        
+        # Находим последнее подчеркивание - после него профессия
+        last_underscore = callback_data_clean.rfind("_")
+        if last_underscore == -1:
             logger.error(f'Неверный формат callback_data: {callback.data}')
             await callback.answer("Ошибка в данных", show_alert=True)
             return
         
-        doctor_id = parts[0]
-        profession = parts[1] if len(parts) > 1 else ""
+        doctor_id = callback_data_clean[:last_underscore]
+        profession = callback_data_clean[last_underscore + 1:]
+        
+        logger.debug(f'Извлечено: doctor_id={doctor_id}, profession={profession}')
         
         # Получаем имя врача по ID (ID уже без префикса doc_)
         doctor_name = DOCTOR_IDS_REVERSE.get(doctor_id)
@@ -610,7 +615,7 @@ async def process_name(message: Message, bot: Bot, state: FSMContext):
 
 
 # Обработчик получения контакта (кнопка "Поделиться телефоном")
-@router.message(AppointmentStates.waiting_for_phone, ContentTypesFilter(content_types=["contact"]))
+@router.message(AppointmentStates.waiting_for_phone, F.contact)
 async def process_contact(message: Message, bot: Bot, state: FSMContext):
     """Обработчик получения контакта через кнопку"""
     try:
@@ -699,9 +704,9 @@ async def process_phone_internal(message: Message, bot: Bot, state: FSMContext, 
 📞 Телефон: {phone}
 🕐 Время заявки: {datetime.datetime.now().strftime('%d.%m.%Y %H:%M')}"""
         
-        # Отправляем заявку в канал (используем GROUP_1 из конфига)
+        # Отправляем заявку в канал (используем GROUP_ID из конфига)
         try:
-            channel_id = conf.tg_bot.GROUP_1
+            channel_id = conf.tg_bot.GROUP_ID
             await bot.send_message(
                 chat_id=channel_id,
                 text=appointment_text,

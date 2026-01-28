@@ -195,8 +195,7 @@ class TgBot:
     admin_ids: list[str]  # Список id администраторов бота
     base_dir = BASE_DIR
     TIMEZONE: pytz.timezone
-    GROUP_1: int
-    GROUP_2: int
+    GROUP_ID: int  # ID канала для уведомлений о заявках
     price_file_id: str = None  # File ID прайса для отправки по ID
 
 
@@ -219,8 +218,7 @@ def load_config(path) -> Config:
     return Config(tg_bot=TgBot(token=env('BOT_TOKEN'),
                                admin_ids=list(map(str, env.list('ADMIN_IDS'))),
                                TIMEZONE=pytz.timezone(env('TIMEZONE')),
-                               GROUP_1=int(env('GROUP_1')),
-                               GROUP_2=int(env('GROUP_2')),
+                               GROUP_ID=int(env('GROUP_ID')),
                                price_file_id=env('PRICE_FILE_ID', default=None),
                                ),
                   db=PostgresConfig(
