@@ -128,11 +128,34 @@ async def back_to_menu(callback: CallbackQuery, bot: Bot):
         welcome_text = """Здравствуй, королевский друг ROYAL Clinic. 
 Приглашаем вас в волшебный научный мир счастливого родительства!"""
         
-        await callback.message.edit_text(
-            welcome_text,
-            reply_markup=get_main_menu_kb(),
-            parse_mode=ParseMode.HTML
-        )
+        # Если сообщение содержит фото, отправляем новое сообщение вместо редактирования
+        if callback.message.photo:
+            try:
+                await callback.message.delete()
+            except Exception as delete_error:
+                logger.warning(f'Не удалось удалить сообщение с фото: {delete_error}')
+            
+            await callback.message.answer(
+                welcome_text,
+                reply_markup=get_main_menu_kb(),
+                parse_mode=ParseMode.HTML
+            )
+        else:
+            try:
+                await callback.message.edit_text(
+                    welcome_text,
+                    reply_markup=get_main_menu_kb(),
+                    parse_mode=ParseMode.HTML
+                )
+            except Exception as edit_error:
+                # Если не удалось отредактировать, отправляем новое сообщение
+                logger.warning(f'Не удалось отредактировать сообщение, отправляем новое: {edit_error}')
+                await callback.message.answer(
+                    welcome_text,
+                    reply_markup=get_main_menu_kb(),
+                    parse_mode=ParseMode.HTML
+                )
+        
         await callback.answer()
         logger.info(f'Главное меню показано пользователю {callback.from_user.id}')
     except Exception as e:
@@ -328,23 +351,63 @@ async def menu_contacts(callback: CallbackQuery, bot: Bot):
     """Обработчик кнопки Контакты"""
     try:
         logger.info(f'menu_contacts: пользователь {callback.from_user.id}')
-        contacts_text = """🔵 Контакты
+        contacts_text = """🟧 Контакты
 
-📞 Номер телефона: <a href="tel:+79057777095">+7(905)-777-70-95</a>
+📞 Номера телефонов:
+<a href="tel:+79057777095">+7(905)-777-70-95</a>
+<a href="tel:+79260440040">+7(926)-044-00-40</a>
 
 🌐 Сайт клиники: <a href="https://royalclinicmoscow.ru">https://royalclinicmoscow.ru</a>
 
 📍 Адрес: г. Москва, Севастопольский проспект 13А
-🚇 м. Крымская, МЦК Крымская"""
+🚇 м. Крымская, МЦК Крымская
+🅿️ Собственная парковка"""
         
-        await callback.message.edit_text(
-            contacts_text,
-            reply_markup=get_contacts_kb(),
-            parse_mode=ParseMode.HTML,
-            disable_web_page_preview=True
-        )
-        await callback.answer()
-        logger.info(f'Контакты показаны пользователю {callback.from_user.id}')
+        # Проверяем наличие фото для контактов
+        contact_photo_path = BASE_DIR / 'data' / 'photo' / 'contact.jpeg'
+        logger.info(f'Проверка файла контактов: {contact_photo_path}, существует: {contact_photo_path.exists()}')
+        
+        if contact_photo_path.exists():
+            # Если фото есть, отправляем его с текстом
+            try:
+                photo = FSInputFile(contact_photo_path)
+                logger.info(f'Отправка фото контактов: {contact_photo_path}')
+                # Отправляем фото с текстом
+                await bot.send_photo(
+                    chat_id=callback.from_user.id,
+                    photo=photo,
+                    caption=contacts_text,
+                    reply_markup=get_contacts_kb(),
+                    parse_mode=ParseMode.HTML
+                )
+                # Удаляем старое сообщение
+                try:
+                    await callback.message.delete()
+                except Exception as delete_error:
+                    logger.warning(f'Не удалось удалить сообщение: {delete_error}')
+                await callback.answer()
+                logger.info(f'Контакты с фото показаны пользователю {callback.from_user.id}')
+            except Exception as photo_error:
+                logger.error(f'Ошибка при отправке фото контактов: {photo_error}', exc_info=True)
+                # Если не удалось отправить фото, отправляем текст
+                await callback.message.edit_text(
+                    contacts_text,
+                    reply_markup=get_contacts_kb(),
+                    parse_mode=ParseMode.HTML,
+                    disable_web_page_preview=True
+                )
+                await callback.answer()
+        else:
+            logger.warning(f'Файл контактов не найден: {contact_photo_path}')
+            # Если фото нет, редактируем текстовое сообщение
+            await callback.message.edit_text(
+                contacts_text,
+                reply_markup=get_contacts_kb(),
+                parse_mode=ParseMode.HTML,
+                disable_web_page_preview=True
+            )
+            await callback.answer()
+            logger.info(f'Контакты без фото показаны пользователю {callback.from_user.id}')
     except Exception as e:
         logger.error(f'Ошибка в menu_contacts: {e}', exc_info=True)
         try:

@@ -38,16 +38,16 @@ def get_main_menu_kb() -> InlineKeyboardMarkup:
     """Создает клавиатуру главного меню"""
     kb_builder = InlineKeyboardBuilder()
     kb_builder.row(
-        InlineKeyboardButton(text="🔵 Прайс", callback_data="menu_price")
+        InlineKeyboardButton(text="🟧 Прайс", callback_data="menu_price")
     )
     kb_builder.row(
-        InlineKeyboardButton(text="🔵 Перейти в ТГ-канал клиники", url="https://t.me/royalclinicmos")
+        InlineKeyboardButton(text="🟧 Перейти в ТГ-канал клиники", url="https://t.me/royalclinicmos")
     )
     kb_builder.row(
-        InlineKeyboardButton(text="🔵 Контакты", callback_data="menu_contacts")
+        InlineKeyboardButton(text="🟧 Контакты", callback_data="menu_contacts")
     )
     kb_builder.row(
-        InlineKeyboardButton(text="🔵 Записаться на прием", callback_data="menu_appointment")
+        InlineKeyboardButton(text="🟧 Записаться на прием", callback_data="menu_appointment")
     )
     return kb_builder.as_markup()
 
