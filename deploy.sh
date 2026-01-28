@@ -15,7 +15,18 @@ NC='\033[0m' # No Color
 PROJECT_NAME="clinic-bot"
 PROJECT_DIR="/opt/$PROJECT_NAME"
 SERVICE_USER="clinicbot"
-PYTHON_VERSION="python3.10"
+# Определяем доступную версию Python (3.10+)
+if command -v python3.12 &> /dev/null; then
+    PYTHON_VERSION="python3.12"
+elif command -v python3.11 &> /dev/null; then
+    PYTHON_VERSION="python3.11"
+elif command -v python3.10 &> /dev/null; then
+    PYTHON_VERSION="python3.10"
+elif command -v python3 &> /dev/null; then
+    PYTHON_VERSION="python3"
+else
+    PYTHON_VERSION="python3"
+fi
 VENV_DIR="$PROJECT_DIR/venv"
 
 echo -e "${GREEN}=== Развертывание Telegram бота ROYAL Clinic ===${NC}"
@@ -51,8 +62,21 @@ cp -r "$SCRIPT_DIR"/.git "$PROJECT_DIR/" 2>/dev/null || true
 # Установка Python и зависимостей
 echo -e "${YELLOW}Проверка Python...${NC}"
 if ! command -v $PYTHON_VERSION &> /dev/null; then
-    echo -e "${RED}Ошибка: $PYTHON_VERSION не установлен${NC}"
-    echo -e "${YELLOW}Установите Python 3.10: apt-get install python3.10 python3.10-venv python3-pip${NC}"
+    echo -e "${YELLOW}Установка Python 3...${NC}"
+    apt-get install -y python3 python3-venv python3-pip
+    # Обновляем PYTHON_VERSION после установки
+    PYTHON_VERSION="python3"
+fi
+
+# Проверяем версию Python
+PYTHON_VER=$($PYTHON_VERSION --version 2>&1 | awk '{print $2}' | cut -d. -f1,2)
+echo -e "${GREEN}Найдена версия Python: $($PYTHON_VERSION --version)${NC}"
+
+# Проверяем минимальную версию (3.10+)
+PYTHON_MAJOR=$(echo $PYTHON_VER | cut -d. -f1)
+PYTHON_MINOR=$(echo $PYTHON_VER | cut -d. -f2)
+if [ "$PYTHON_MAJOR" -lt 3 ] || ([ "$PYTHON_MAJOR" -eq 3 ] && [ "$PYTHON_MINOR" -lt 10 ]); then
+    echo -e "${RED}Ошибка: Требуется Python 3.10 или выше, найдена версия $PYTHON_VER${NC}"
     exit 1
 fi
 
