@@ -69,9 +69,9 @@ apt-get install -y \
     curl \
     libpq-dev \
     postgresql-client \
-    postgresql-dev \
     build-essential \
-    python3-dev
+    python3-dev \
+    pkg-config
 
 # Обновляем PYTHON_VERSION после установки
 if command -v python3 &> /dev/null; then
