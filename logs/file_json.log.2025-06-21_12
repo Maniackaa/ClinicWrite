@@ -1,0 +1,127 @@
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 14:22:31"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 14:22:31"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 14:22:32"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 14:22:32"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 14:22:32"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 14:22:32"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 14:22:32"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52", "level": "info", "timestamp": "2025-06-21 14:23:28"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 14:24:19"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 14:24:19"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 14:24:19"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 14:24:19"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 14:24:19"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 14:24:19"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 14:24:19"}
+{"event": "Прочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24", "level": "info", "timestamp": "2025-06-21 14:24:21"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28", "level": "info", "timestamp": "2025-06-21 14:24:21"}
+{"event": "MY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83", "level": "debug", "timestamp": "2025-06-21 14:25:09"}
+{"event": "Бот добавлен в канал -1002732338521 gr3 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87", "level": "info", "timestamp": "2025-06-21 14:25:09"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=54", "level": "info", "timestamp": "2025-06-21 14:27:37"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 14:27:39"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 14:27:39"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 14:27:41"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 14:27:41"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 14:27:41"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 14:27:41"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 14:27:41"}
+{"event": "Прочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24", "level": "info", "timestamp": "2025-06-21 14:29:08"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28", "level": "info", "timestamp": "2025-06-21 14:29:08"}
+{"event": "Прочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24", "level": "info", "timestamp": "2025-06-21 14:29:17"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28", "level": "info", "timestamp": "2025-06-21 14:29:17"}
+{"event": "Прочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24", "level": "info", "timestamp": "2025-06-21 14:29:28"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28", "level": "info", "timestamp": "2025-06-21 14:29:28"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55", "level": "info", "timestamp": "2025-06-21 14:37:43"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 14:37:45"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 14:37:45"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 14:37:45"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 14:37:46"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 14:37:46"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 14:37:46"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 14:37:46"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55", "level": "info", "timestamp": "2025-06-21 14:40:17"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 14:40:19"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 14:40:19"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 14:40:19"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 14:40:19"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 14:40:19"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 14:40:19"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 14:40:19"}
+{"event": "Не могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=44", "level": "critical", "timestamp": "2025-06-21 14:40:20"}
+{"event": "Прочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24", "level": "info", "timestamp": "2025-06-21 14:40:22"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28", "level": "info", "timestamp": "2025-06-21 14:40:22"}
+{"event": "USER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36", "level": "debug", "timestamp": "2025-06-21 14:40:44"}
+{"event": "-1001960686782 gr1             [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41", "level": "debug", "timestamp": "2025-06-21 14:40:44"}
+{"event": "member: id=6534102294 is_bot=True first_name='SHORTSMAN' last_name=None username='shortsman_bot' language_code=None is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43", "level": "debug", "timestamp": "2025-06-21 14:40:44"}
+{"event": "Юзер shortsman_bot 6534102294 присоединился к каналу -1001960686782 gr1  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44", "level": "info", "timestamp": "2025-06-21 14:40:44"}
+{"event": "MY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83", "level": "debug", "timestamp": "2025-06-21 14:40:44"}
+{"event": "Бот добавлен в канал -1002732338521 gr3 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87", "level": "info", "timestamp": "2025-06-21 14:40:44"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55", "level": "info", "timestamp": "2025-06-21 14:45:36"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 14:47:19"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 14:47:19"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 14:47:20"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 14:47:20"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 14:47:20"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 14:47:20"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 14:47:20"}
+{"event": "USER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36", "level": "debug", "timestamp": "2025-06-21 14:50:14"}
+{"event": "-1002732338521 gr3             [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41", "level": "debug", "timestamp": "2025-06-21 14:50:14"}
+{"event": "member: id=173901673 is_bot=False first_name='Mikhail' last_name='Kryzhanovskiy' username='kmsint' language_code=None is_premium=True added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43", "level": "debug", "timestamp": "2025-06-21 14:50:14"}
+{"event": "Юзер kmsint 173901673 присоединился к каналу -1002732338521 gr3  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44", "level": "info", "timestamp": "2025-06-21 14:50:14"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55", "level": "info", "timestamp": "2025-06-21 16:09:48"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 16:10:01"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 16:10:01"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 16:10:01"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 16:10:01"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 16:10:01"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 16:10:01"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 16:10:01"}
+{"event": "channel_post_handler           [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=25", "level": "info", "timestamp": "2025-06-21 16:10:04"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70", "level": "info", "timestamp": "2025-06-21 16:10:17"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 16:10:20"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 16:10:20"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 16:10:20"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 16:10:20"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 16:10:20"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 16:10:20"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 16:10:20"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70", "level": "info", "timestamp": "2025-06-21 16:11:15"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 16:11:17"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 16:11:17"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 16:11:17"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 16:11:18"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 16:11:18"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 16:11:18"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 16:11:18"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70", "level": "info", "timestamp": "2025-06-21 16:12:05"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 16:12:07"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 16:12:07"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 16:12:07"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 16:12:07"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 16:12:07"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 16:12:07"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 16:12:07"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70", "level": "info", "timestamp": "2025-06-21 16:12:21"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 16:12:23"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 16:12:23"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 16:12:23"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 16:12:23"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 16:12:23"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 16:12:23"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 16:12:23"}
+{"event": "Прочитал сообщение в канале -1002732338521 [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=26", "level": "info", "timestamp": "2025-06-21 16:12:27"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=30", "level": "info", "timestamp": "2025-06-21 16:12:27"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70", "level": "info", "timestamp": "2025-06-21 16:12:33"}
+{"event": "Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172", "level": "debug", "timestamp": "2025-06-21 16:17:16"}
+{"event": "Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173", "level": "info", "timestamp": "2025-06-21 16:17:16"}
+{"event": "Starting bot                   [__main__] filename=main.py func_name=main lineno=24", "level": "info", "timestamp": "2025-06-21 16:17:17"}
+{"event": "Looking up time zone info from registry", "level": "debug", "timestamp": "2025-06-21 16:17:17"}
+{"event": "Scheduler started", "level": "info", "timestamp": "2025-06-21 16:17:17"}
+{"event": "Looking for jobs to run", "level": "debug", "timestamp": "2025-06-21 16:17:17"}
+{"event": "No jobs; waiting until a job is added", "level": "debug", "timestamp": "2025-06-21 16:17:17"}
+{"event": "Прочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=91", "level": "info", "timestamp": "2025-06-21 16:17:51"}
+{"event": "['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=95", "level": "info", "timestamp": "2025-06-21 16:17:51"}
+{"event": "send_telegram_message 585896156 [main] filename=main.py func_name=send_telegram_message lineno=19", "level": "info", "timestamp": "2025-06-21 16:17:51"}
+{"event": "Прочитал сообщение в канале -1002732338521 [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=26", "level": "info", "timestamp": "2025-06-21 16:18:43"}
+{"event": "[]                             [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=30", "level": "info", "timestamp": "2025-06-21 16:18:43"}
+{"event": "Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70", "level": "info", "timestamp": "2025-06-21 16:18:44"}

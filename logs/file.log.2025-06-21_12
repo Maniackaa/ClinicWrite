@@ -1,0 +1,127 @@
+2025-06-21 14:22:31 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 14:22:31 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 14:22:32 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 14:22:32 [debug    ] Looking up time zone info from registry
+2025-06-21 14:22:32 [info     ] Scheduler started
+2025-06-21 14:22:32 [debug    ] Looking for jobs to run
+2025-06-21 14:22:32 [debug    ] No jobs; waiting until a job is added
+2025-06-21 14:23:28 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-21 14:24:19 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 14:24:19 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 14:24:19 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 14:24:19 [debug    ] Looking up time zone info from registry
+2025-06-21 14:24:19 [info     ] Scheduler started
+2025-06-21 14:24:19 [debug    ] Looking for jobs to run
+2025-06-21 14:24:19 [debug    ] No jobs; waiting until a job is added
+2025-06-21 14:24:21 [info     ] Прочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-21 14:24:21 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28
+2025-06-21 14:25:09 [debug    ] MY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83
+2025-06-21 14:25:09 [info     ] Бот добавлен в канал -1002732338521 gr3 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87
+2025-06-21 14:27:37 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=54
+2025-06-21 14:27:39 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 14:27:39 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 14:27:41 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 14:27:41 [debug    ] Looking up time zone info from registry
+2025-06-21 14:27:41 [info     ] Scheduler started
+2025-06-21 14:27:41 [debug    ] Looking for jobs to run
+2025-06-21 14:27:41 [debug    ] No jobs; waiting until a job is added
+2025-06-21 14:29:08 [info     ] Прочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-21 14:29:08 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28
+2025-06-21 14:29:17 [info     ] Прочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-21 14:29:17 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28
+2025-06-21 14:29:28 [info     ] Прочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-21 14:29:28 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28
+2025-06-21 14:37:43 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55
+2025-06-21 14:37:45 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 14:37:45 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 14:37:45 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 14:37:46 [debug    ] Looking up time zone info from registry
+2025-06-21 14:37:46 [info     ] Scheduler started
+2025-06-21 14:37:46 [debug    ] Looking for jobs to run
+2025-06-21 14:37:46 [debug    ] No jobs; waiting until a job is added
+2025-06-21 14:40:17 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55
+2025-06-21 14:40:19 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 14:40:19 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 14:40:19 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 14:40:19 [debug    ] Looking up time zone info from registry
+2025-06-21 14:40:19 [info     ] Scheduler started
+2025-06-21 14:40:19 [debug    ] Looking for jobs to run
+2025-06-21 14:40:19 [debug    ] No jobs; waiting until a job is added
+2025-06-21 14:40:20 [critical ] Не могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=44
+2025-06-21 14:40:22 [info     ] Прочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-21 14:40:22 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28
+2025-06-21 14:40:44 [debug    ] USER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36
+2025-06-21 14:40:44 [debug    ] -1001960686782 gr1             [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41
+2025-06-21 14:40:44 [debug    ] member: id=6534102294 is_bot=True first_name='SHORTSMAN' last_name=None username='shortsman_bot' language_code=None is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43
+2025-06-21 14:40:44 [info     ] Юзер shortsman_bot 6534102294 присоединился к каналу -1001960686782 gr1  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44
+2025-06-21 14:40:44 [debug    ] MY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83
+2025-06-21 14:40:44 [info     ] Бот добавлен в канал -1002732338521 gr3 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87
+2025-06-21 14:45:36 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55
+2025-06-21 14:47:19 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 14:47:19 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 14:47:20 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 14:47:20 [debug    ] Looking up time zone info from registry
+2025-06-21 14:47:20 [info     ] Scheduler started
+2025-06-21 14:47:20 [debug    ] Looking for jobs to run
+2025-06-21 14:47:20 [debug    ] No jobs; waiting until a job is added
+2025-06-21 14:50:14 [debug    ] USER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36
+2025-06-21 14:50:14 [debug    ] -1002732338521 gr3             [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41
+2025-06-21 14:50:14 [debug    ] member: id=173901673 is_bot=False first_name='Mikhail' last_name='Kryzhanovskiy' username='kmsint' language_code=None is_premium=True added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43
+2025-06-21 14:50:14 [info     ] Юзер kmsint 173901673 присоединился к каналу -1002732338521 gr3  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44
+2025-06-21 16:09:48 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55
+2025-06-21 16:10:01 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 16:10:01 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 16:10:01 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 16:10:01 [debug    ] Looking up time zone info from registry
+2025-06-21 16:10:01 [info     ] Scheduler started
+2025-06-21 16:10:01 [debug    ] Looking for jobs to run
+2025-06-21 16:10:01 [debug    ] No jobs; waiting until a job is added
+2025-06-21 16:10:04 [info     ] channel_post_handler           [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=25
+2025-06-21 16:10:17 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70
+2025-06-21 16:10:20 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 16:10:20 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 16:10:20 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 16:10:20 [debug    ] Looking up time zone info from registry
+2025-06-21 16:10:20 [info     ] Scheduler started
+2025-06-21 16:10:20 [debug    ] Looking for jobs to run
+2025-06-21 16:10:20 [debug    ] No jobs; waiting until a job is added
+2025-06-21 16:11:15 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70
+2025-06-21 16:11:17 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 16:11:17 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 16:11:17 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 16:11:18 [debug    ] Looking up time zone info from registry
+2025-06-21 16:11:18 [info     ] Scheduler started
+2025-06-21 16:11:18 [debug    ] Looking for jobs to run
+2025-06-21 16:11:18 [debug    ] No jobs; waiting until a job is added
+2025-06-21 16:12:05 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70
+2025-06-21 16:12:07 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 16:12:07 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 16:12:07 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 16:12:07 [debug    ] Looking up time zone info from registry
+2025-06-21 16:12:07 [info     ] Scheduler started
+2025-06-21 16:12:07 [debug    ] Looking for jobs to run
+2025-06-21 16:12:07 [debug    ] No jobs; waiting until a job is added
+2025-06-21 16:12:21 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70
+2025-06-21 16:12:23 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 16:12:23 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 16:12:23 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 16:12:23 [debug    ] Looking up time zone info from registry
+2025-06-21 16:12:23 [info     ] Scheduler started
+2025-06-21 16:12:23 [debug    ] Looking for jobs to run
+2025-06-21 16:12:23 [debug    ] No jobs; waiting until a job is added
+2025-06-21 16:12:27 [info     ] Прочитал сообщение в канале -1002732338521 [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=26
+2025-06-21 16:12:27 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=30
+2025-06-21 16:12:33 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70
+2025-06-21 16:17:16 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-21 16:17:16 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-21 16:17:17 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-21 16:17:17 [debug    ] Looking up time zone info from registry
+2025-06-21 16:17:17 [info     ] Scheduler started
+2025-06-21 16:17:17 [debug    ] Looking for jobs to run
+2025-06-21 16:17:17 [debug    ] No jobs; waiting until a job is added
+2025-06-21 16:17:51 [info     ] Прочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=91
+2025-06-21 16:17:51 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=95
+2025-06-21 16:17:51 [info     ] send_telegram_message 585896156 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-21 16:18:43 [info     ] Прочитал сообщение в канале -1002732338521 [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=26
+2025-06-21 16:18:43 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=30
+2025-06-21 16:18:44 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70

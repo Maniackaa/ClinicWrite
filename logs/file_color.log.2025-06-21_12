@@ -1,0 +1,127 @@
+[2m2025-06-21 14:22:31[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 14:22:31[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 14:22:32[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 14:22:32[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 14:22:32[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 14:22:32[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 14:22:32[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 14:23:28[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52[0m
+[2m2025-06-21 14:24:19[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 14:24:19[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 14:24:19[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 14:24:19[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 14:24:19[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 14:24:19[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 14:24:19[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 14:24:21[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24[0m
+[2m2025-06-21 14:24:21[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28[0m
+[2m2025-06-21 14:25:09[0m [[32m[1mdebug    [0m] [1mMY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83[0m
+[2m2025-06-21 14:25:09[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1002732338521 gr3 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87[0m
+[2m2025-06-21 14:27:37[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=54[0m
+[2m2025-06-21 14:27:39[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 14:27:39[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 14:27:41[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 14:27:41[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 14:27:41[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 14:27:41[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 14:27:41[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 14:29:08[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24[0m
+[2m2025-06-21 14:29:08[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28[0m
+[2m2025-06-21 14:29:17[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24[0m
+[2m2025-06-21 14:29:17[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28[0m
+[2m2025-06-21 14:29:28[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале -1001873185491 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24[0m
+[2m2025-06-21 14:29:28[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28[0m
+[2m2025-06-21 14:37:43[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55[0m
+[2m2025-06-21 14:37:45[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 14:37:45[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 14:37:45[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 14:37:46[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 14:37:46[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 14:37:46[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 14:37:46[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 14:40:17[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55[0m
+[2m2025-06-21 14:40:19[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 14:40:19[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 14:40:19[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 14:40:19[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 14:40:19[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 14:40:19[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 14:40:19[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 14:40:20[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=44[0m
+[2m2025-06-21 14:40:22[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24[0m
+[2m2025-06-21 14:40:22[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=28[0m
+[2m2025-06-21 14:40:44[0m [[32m[1mdebug    [0m] [1mUSER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36[0m
+[2m2025-06-21 14:40:44[0m [[32m[1mdebug    [0m] [1m-1001960686782 gr1             [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41[0m
+[2m2025-06-21 14:40:44[0m [[32m[1mdebug    [0m] [1mmember: id=6534102294 is_bot=True first_name='SHORTSMAN' last_name=None username='shortsman_bot' language_code=None is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43[0m
+[2m2025-06-21 14:40:44[0m [[32m[1minfo     [0m] [1mЮзер shortsman_bot 6534102294 присоединился к каналу -1001960686782 gr1  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44[0m
+[2m2025-06-21 14:40:44[0m [[32m[1mdebug    [0m] [1mMY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83[0m
+[2m2025-06-21 14:40:44[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1002732338521 gr3 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87[0m
+[2m2025-06-21 14:45:36[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55[0m
+[2m2025-06-21 14:47:19[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 14:47:19[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 14:47:20[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 14:47:20[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 14:47:20[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 14:47:20[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 14:47:20[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 14:50:14[0m [[32m[1mdebug    [0m] [1mUSER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36[0m
+[2m2025-06-21 14:50:14[0m [[32m[1mdebug    [0m] [1m-1002732338521 gr3             [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41[0m
+[2m2025-06-21 14:50:14[0m [[32m[1mdebug    [0m] [1mmember: id=173901673 is_bot=False first_name='Mikhail' last_name='Kryzhanovskiy' username='kmsint' language_code=None is_premium=True added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43[0m
+[2m2025-06-21 14:50:14[0m [[32m[1minfo     [0m] [1mЮзер kmsint 173901673 присоединился к каналу -1002732338521 gr3  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44[0m
+[2m2025-06-21 16:09:48[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=55[0m
+[2m2025-06-21 16:10:01[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 16:10:01[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 16:10:01[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 16:10:01[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 16:10:01[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 16:10:01[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 16:10:01[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 16:10:04[0m [[32m[1minfo     [0m] [1mchannel_post_handler           [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=25[0m
+[2m2025-06-21 16:10:17[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2025-06-21 16:10:20[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 16:10:20[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 16:10:20[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 16:10:20[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 16:10:20[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 16:10:20[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 16:10:20[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 16:11:15[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2025-06-21 16:11:17[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 16:11:17[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 16:11:17[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 16:11:18[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 16:11:18[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 16:11:18[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 16:11:18[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 16:12:05[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2025-06-21 16:12:07[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 16:12:07[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 16:12:07[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 16:12:07[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 16:12:07[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 16:12:07[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 16:12:07[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 16:12:21[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2025-06-21 16:12:23[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 16:12:23[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 16:12:23[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 16:12:23[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 16:12:23[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 16:12:23[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 16:12:23[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 16:12:27[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале -1002732338521 [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=26[0m
+[2m2025-06-21 16:12:27[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=30[0m
+[2m2025-06-21 16:12:33[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2025-06-21 16:17:16[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2025-06-21 16:17:16[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2025-06-21 16:17:17[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2025-06-21 16:17:17[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2025-06-21 16:17:17[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2025-06-21 16:17:17[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2025-06-21 16:17:17[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2025-06-21 16:17:51[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=91[0m
+[2m2025-06-21 16:17:51[0m [[32m[1minfo     [0m] [1m['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=95[0m
+[2m2025-06-21 16:17:51[0m [[32m[1minfo     [0m] [1msend_telegram_message 585896156 [main] filename=main.py func_name=send_telegram_message lineno=19[0m
+[2m2025-06-21 16:18:43[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в канале -1002732338521 [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=26[0m
+[2m2025-06-21 16:18:43[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=channel_post_handler lineno=30[0m
+[2m2025-06-21 16:18:44[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m

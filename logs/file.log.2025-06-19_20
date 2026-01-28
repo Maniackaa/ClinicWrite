@@ -1,0 +1,813 @@
+2025-06-19 18:47:59 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:47:59 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:48:08 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:48:08 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:48:30 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:48:30 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:48:41 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:48:41 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:48:52 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:48:52 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:48:59 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:48:59 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:49:15 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=182
+2025-06-19 18:49:15 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=183
+2025-06-19 18:49:16 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:49:31 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:49:48 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:49:48 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:49:49 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:50:06 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:50:07 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:50:07 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:50:07 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:50:10 [info     ] xxx                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=17
+2025-06-19 18:50:15 [info     ] xxx                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=17
+2025-06-19 18:50:15 [info     ] rate: [{'currency': 'RUB', 'value': 309}, {'currency': 'USD', 'value': 25600}, {'currency': 'RUB', 'value': 25300}] [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=35
+2025-06-19 18:51:21 [debug    ] MY event MEMBER                [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=55
+2025-06-19 18:51:21 [info     ] Бот добавлен в канал -1001960686782 gr1 как MEMBER  пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=59
+2025-06-19 18:51:21 [debug    ] echo None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=44
+2025-06-19 18:52:31 [debug    ] MY event MEMBER                [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=55
+2025-06-19 18:52:31 [info     ] Бот добавлен в канал -1001960124767 Кто летит?📦Вьетнам! как MEMBER  пользователем DM11ITRY 312465868 [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=59
+2025-06-19 18:52:47 [debug    ] MY event LEFT                  [handlers.action_handlers] filename=action_handlers.py func_name=left lineno=69
+2025-06-19 18:52:47 [debug    ] chat=Chat(id=-1001808979846, type='channel', title='ОБМЕН ВАЛЮТЫ Нячанг', username='KREXPEXexchange', first_name=None, last_name=None, is_forum=None, accent_color_id=None, active_usernames=None, available_reactions=None, background_custom_emoji_id=None, bio=None, birthdate=None, business_intro=None, business_location=None, business_opening_hours=None, can_set_sticker_set=None, custom_emoji_sticker_set_name=None, description=None, emoji_status_custom_emoji_id=None, emoji_status_expiration_date=None, has_aggressive_anti_spam_enabled=None, has_hidden_members=None, has_private_forwards=None, has_protected_content=None, has_restricted_voice_and_video_messages=None, has_visible_history=None, invite_link=None, join_by_request=None, join_to_send_messages=None, linked_chat_id=None, location=None, message_auto_delete_time=None, permissions=None, personal_chat=None, photo=None, pinned_message=None, profile_accent_color_id=None, profile_background_custom_emoji_id=None, slow_mode_delay=None, sticker_set_name=None, unrestrict_boost_count=None) from_user=User(id=312465868, is_bot=False, first_name='Dmitry', last_name=None, username='DM11ITRY', language_code=None, is_premium=True, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None, can_connect_to_business=None, has_main_web_app=None) date=datetime.datetime(2025, 6, 19, 11, 52, 47, tzinfo=TzInfo(UTC)) old_chat_member=ChatMemberAdministrator(status='administrator', user=User(id=7964231012, is_bot=True, first_name='RateCopyBot', last_name=None, username='RateCopyBot', language_code=None, is_premium=None, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None, can_connect_to_business=None, has_main_web_app=None), can_be_edited=False, is_anonymous=False, can_manage_chat=True, can_delete_messages=True, can_manage_video_chats=True, can_restrict_members=True, can_promote_members=False, can_change_info=True, can_invite_users=True, can_post_stories=True, can_edit_stories=True, can_delete_stories=True, can_post_messages=True, can_edit_messages=True, can_pin_messages=None, can_manage_topics=None, custom_title=None, can_manage_voice_chats=True) new_chat_member=ChatMemberLeft(status='left', user=User(id=7964231012, is_bot=True, first_name='RateCopyBot', last_name=None, username='RateCopyBot', language_code=None, is_premium=None, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None, can_connect_to_business=None, has_main_web_app=None)) invite_link=None via_join_request=None via_chat_folder_invite_link=None [handlers.action_handlers] filename=action_handlers.py func_name=left lineno=71
+2025-06-19 18:52:47 [info     ] Бот удален с канала -1001808979846 ОБМЕН ВАЛЮТЫ Нячанг пользователем DM11ITRY 312465868 [handlers.action_handlers] filename=action_handlers.py func_name=left lineno=74
+2025-06-19 18:52:58 [info     ] xxx                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=17
+2025-06-19 18:53:06 [debug    ] MY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83
+2025-06-19 18:53:06 [info     ] Бот добавлен в канал -1001808979846 ОБМЕН ВАЛЮТЫ Нячанг как ADMINISTRATOR пользователем DM11ITRY 312465868 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87
+2025-06-19 18:55:25 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:55:27 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:55:27 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:55:27 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:55:38 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=21
+2025-06-19 18:56:31 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:56:33 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:56:33 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:56:33 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:56:37 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=23
+2025-06-19 18:56:38 [error    ] list index out of range        [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=50
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\handlers\user_handlers.py", line 37, in extract_exchange_rates
+    </b><tg-emoji emoji-id="5264945652181247629">💸</tg-emoji><b>1       </b><tg-emoji emoji-id="5379894627883032944">➡️</tg-emoji>   <b>₫</b> <b>{rates[3]}
+IndexError: list index out of range
+2025-06-19 18:56:46 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:56:48 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:56:48 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:56:48 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:56:55 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=23
+2025-06-19 18:57:12 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:57:14 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:57:14 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:57:14 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:57:17 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-19 18:59:40 [debug    ] MY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83
+2025-06-19 18:59:40 [info     ] Бот добавлен в канал -1001960686782 gr1 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87
+2025-06-19 18:59:46 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 18:59:48 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 18:59:48 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 18:59:48 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 18:59:53 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:01:05 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 19:01:07 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:01:07 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:01:07 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 19:01:16 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:02:20 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 19:02:21 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:02:21 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:02:21 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 19:02:31 [info     ] rates: [309, 25600, 25300]     [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:05:05 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 19:05:07 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:05:07 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:05:07 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 19:14:09 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 19:14:11 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:14:11 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:14:11 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 19:14:14 [info     ] [309, 25600, 25300]            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=25
+2025-06-19 19:15:18 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 19:15:20 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:15:20 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:15:20 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=12
+2025-06-19 19:15:34 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=34
+2025-06-19 19:27:03 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:27:03 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:27:03 [debug    ] Looking up time zone info from registry
+2025-06-19 19:29:18 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:29:18 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:29:18 [debug    ] Looking up time zone info from registry
+2025-06-19 19:29:18 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=38
+2025-06-19 19:29:19 [info     ] Scheduler started
+2025-06-19 19:29:19 [debug    ] Looking for jobs to run
+2025-06-19 19:29:19 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:29:30 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:29:45 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=61
+2025-06-19 19:30:18 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:30:18 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:30:18 [debug    ] Looking up time zone info from registry
+2025-06-19 19:30:18 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:30:18 [info     ] Scheduler started
+2025-06-19 19:30:18 [debug    ] Looking for jobs to run
+2025-06-19 19:30:18 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:30:25 [info     ] run_at: 2025-06-19 19:30:30.044109 [main] filename=main.py func_name=schedule_aps lineno=28
+2025-06-19 19:30:25 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:30:45 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:30:47 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:30:47 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:30:47 [debug    ] Looking up time zone info from registry
+2025-06-19 19:30:47 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:30:48 [info     ] Scheduler started
+2025-06-19 19:30:48 [debug    ] Looking for jobs to run
+2025-06-19 19:30:48 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:30:49 [info     ] run_at: 2025-06-19 19:30:59.674697 [main] filename=main.py func_name=schedule_aps lineno=28
+2025-06-19 19:30:49 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:31:13 [info     ] run_at: 2025-06-19 19:31:23.742172 [main] filename=main.py func_name=schedule_aps lineno=28
+2025-06-19 19:31:13 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:31:40 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:31:42 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:31:42 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:31:42 [debug    ] Looking up time zone info from registry
+2025-06-19 19:31:42 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:31:48 [info     ] Scheduler started
+2025-06-19 19:31:48 [debug    ] Looking for jobs to run
+2025-06-19 19:31:48 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:31:56 [info     ] run_at: 2025-06-19 19:32:06.656665 [main] filename=main.py func_name=schedule_aps lineno=28
+2025-06-19 19:31:56 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:35:12 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:35:14 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:35:14 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:35:14 [debug    ] Looking up time zone info from registry
+2025-06-19 19:35:14 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:35:15 [info     ] Scheduler started
+2025-06-19 19:35:15 [debug    ] Looking for jobs to run
+2025-06-19 19:35:15 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:35:59 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:36:01 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:36:01 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:36:01 [debug    ] Looking up time zone info from registry
+2025-06-19 19:36:01 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:36:02 [info     ] Scheduler started
+2025-06-19 19:36:02 [debug    ] Looking for jobs to run
+2025-06-19 19:36:02 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:36:07 [info     ] run_at: 2025-06-19 19:36:17.845956 [main] filename=main.py func_name=schedule_aps lineno=28
+2025-06-19 19:36:07 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:51:04 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:52:21 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:52:21 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:52:21 [debug    ] Looking up time zone info from registry
+2025-06-19 19:52:21 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:52:22 [info     ] Scheduler started
+2025-06-19 19:52:22 [debug    ] Looking for jobs to run
+2025-06-19 19:52:22 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:52:28 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:53:23 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:53:26 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:53:26 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:53:26 [debug    ] Looking up time zone info from registry
+2025-06-19 19:53:26 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:53:26 [info     ] Scheduler started
+2025-06-19 19:53:26 [debug    ] Looking for jobs to run
+2025-06-19 19:53:26 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:53:36 [info     ] send_at: 2025-06-19 19:53:46.565710 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=54
+2025-06-19 19:53:36 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:54:28 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:54:31 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:54:31 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:54:31 [debug    ] Looking up time zone info from registry
+2025-06-19 19:54:31 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=39
+2025-06-19 19:54:32 [info     ] Scheduler started
+2025-06-19 19:54:32 [debug    ] Looking for jobs to run
+2025-06-19 19:54:32 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:54:39 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:54:39 [info     ] send_at: 2025-06-19 19:54:49.466729 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=52
+2025-06-19 19:54:39 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:55:15 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=62
+2025-06-19 19:55:17 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:55:17 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:55:17 [debug    ] Looking up time zone info from registry
+2025-06-19 19:55:17 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=27
+2025-06-19 19:55:18 [info     ] Scheduler started
+2025-06-19 19:55:18 [debug    ] Looking for jobs to run
+2025-06-19 19:55:18 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:55:28 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:55:28 [info     ] send_at: 2025-06-19 19:55:38.856152 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=52
+2025-06-19 19:55:28 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:56:15 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=50
+2025-06-19 19:56:17 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:56:17 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:56:17 [debug    ] Looking up time zone info from registry
+2025-06-19 19:56:17 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=28
+2025-06-19 19:56:18 [info     ] Scheduler started
+2025-06-19 19:56:18 [debug    ] Looking for jobs to run
+2025-06-19 19:56:18 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:56:26 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:56:26 [info     ] send_at: 2025-06-19 19:56:36.576127 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=52
+2025-06-19 19:56:26 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 19:58:35 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 19:58:44 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 19:58:44 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 19:58:44 [debug    ] Looking up time zone info from registry
+2025-06-19 19:58:44 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=28
+2025-06-19 19:58:44 [info     ] Scheduler started
+2025-06-19 19:58:44 [debug    ] Looking for jobs to run
+2025-06-19 19:58:44 [debug    ] No jobs; waiting until a job is added
+2025-06-19 19:58:48 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=26
+2025-06-19 19:58:48 [info     ] send_at: 2025-06-19 19:58:58.435908 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=52
+2025-06-19 19:58:48 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 20:00:33 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:00:36 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:00:36 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:00:36 [debug    ] Looking up time zone info from registry
+2025-06-19 20:00:36 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=28
+2025-06-19 20:00:36 [info     ] Scheduler started
+2025-06-19 20:00:36 [debug    ] Looking for jobs to run
+2025-06-19 20:00:36 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:00:44 [warning  ] Scheduler not running, starting now [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=24
+2025-06-19 20:00:44 [info     ] Scheduler started
+2025-06-19 20:00:44 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:00:44 [info     ] send_at: 2025-06-19 20:00:54.471440 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:00:44 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:00:44 [debug    ] Looking for jobs to run
+2025-06-19 20:00:44 [debug    ] Next wakeup is due at 2025-06-19 20:00:54.471440+07:00 (in 9.997888 seconds)
+2025-06-19 20:00:44 [debug    ] Looking for jobs to run
+2025-06-19 20:00:44 [debug    ] Next wakeup is due at 2025-06-19 20:00:54.471440+07:00 (in 9.997364 seconds)
+2025-06-19 20:00:54 [debug    ] Looking for jobs to run
+2025-06-19 20:00:54 [info     ] Removed job send_585896156_1750338054.47144
+2025-06-19 20:00:54 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:00:54 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:00:54 +07], next run at: 2025-06-19 20:00:54 +07)" (scheduled at 2025-06-19 20:00:54.471440+07:00)
+2025-06-19 20:00:54 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=24
+2025-06-19 20:00:54 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:00:54 +07], next run at: 2025-06-19 20:00:54 +07)" executed successfully
+2025-06-19 20:02:48 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:02:50 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:02:50 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:02:50 [debug    ] Looking up time zone info from registry
+2025-06-19 20:02:50 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=28
+2025-06-19 20:02:50 [info     ] Scheduler started
+2025-06-19 20:02:50 [debug    ] Looking for jobs to run
+2025-06-19 20:02:50 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:02:59 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=53
+2025-06-19 20:03:08 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:03:08 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:03:08 [debug    ] Looking up time zone info from registry
+2025-06-19 20:03:08 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:03:08 [info     ] Scheduler started
+2025-06-19 20:03:08 [debug    ] Looking for jobs to run
+2025-06-19 20:03:08 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:03:16 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:03:16 [info     ] send_at: 2025-06-19 20:03:26.099813 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:03:16 [info     ] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-19 20:03:22 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=47
+2025-06-19 20:06:03 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:06:03 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:06:25 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:06:25 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:06:25 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=20
+2025-06-19 20:06:25 [debug    ] Looking up time zone info from registry
+2025-06-19 20:06:25 [info     ] Scheduler started
+2025-06-19 20:06:25 [debug    ] Looking for jobs to run
+2025-06-19 20:06:25 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:06:30 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:06:30 [info     ] send_at: 2025-06-19 20:06:40.584768 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:06:30 [error    ] 'Bot' object has no attribute 'dispatcher' [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=65
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\handlers\user_handlers.py", line 56, in extract_exchange_rates
+    scheduler = bot.dispatcher["scheduler"]
+AttributeError: 'Bot' object has no attribute 'dispatcher'
+2025-06-19 20:07:31 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=48
+2025-06-19 20:07:33 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:07:33 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:07:33 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=20
+2025-06-19 20:07:33 [debug    ] Looking up time zone info from registry
+2025-06-19 20:07:33 [info     ] Scheduler started
+2025-06-19 20:07:33 [debug    ] Looking for jobs to run
+2025-06-19 20:07:33 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:07:45 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:07:45 [info     ] send_at: 2025-06-19 20:07:55.205587 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:07:45 [error    ] cannot pickle '_asyncio.Future' object [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=64
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\handlers\user_handlers.py", line 56, in extract_exchange_rates
+    scheduler.add_job(
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\schedulers\base.py", line 512, in add_job
+    self._real_add_job(job, jobstore, replace_existing)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\schedulers\base.py", line 1076, in _real_add_job
+    store.add_job(job)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\jobstores\sqlalchemy.py", line 118, in add_job
+    "job_state": pickle.dumps(job.__getstate__(), self.pickle_protocol),
+TypeError: cannot pickle '_asyncio.Future' object
+2025-06-19 20:09:03 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=48
+2025-06-19 20:09:49 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:09:49 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:09:49 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=20
+2025-06-19 20:09:49 [debug    ] Looking up time zone info from registry
+2025-06-19 20:09:49 [info     ] Scheduler started
+2025-06-19 20:09:49 [debug    ] Looking for jobs to run
+2025-06-19 20:09:49 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:09:53 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=48
+2025-06-19 20:09:55 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:09:55 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:09:55 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=20
+2025-06-19 20:09:55 [debug    ] Looking up time zone info from registry
+2025-06-19 20:09:55 [info     ] Scheduler started
+2025-06-19 20:09:55 [debug    ] Looking for jobs to run
+2025-06-19 20:09:55 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:09:58 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:09:58 [info     ] send_at: 2025-06-19 20:10:03.793009 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:09:58 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:09:58 [debug    ] Looking for jobs to run
+2025-06-19 20:09:58 [debug    ] Next wakeup is due at 2025-06-19 20:10:03.793009+07:00 (in 4.992044 seconds)
+2025-06-19 20:10:03 [debug    ] Looking for jobs to run
+2025-06-19 20:10:03 [info     ] Removed job send_585896156_1750338603.793009
+2025-06-19 20:10:03 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:10:03 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:10:03 +07], next run at: 2025-06-19 20:10:03 +07)" (scheduled at 2025-06-19 20:10:03.793009+07:00)
+2025-06-19 20:10:03 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=16
+2025-06-19 20:10:04 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:10:03 +07], next run at: 2025-06-19 20:10:03 +07)" executed successfully
+2025-06-19 20:10:14 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=48
+2025-06-19 20:12:44 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:12:44 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:12:44 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=21
+2025-06-19 20:12:44 [debug    ] Looking up time zone info from registry
+2025-06-19 20:12:44 [info     ] Scheduler started
+2025-06-19 20:12:44 [debug    ] Looking for jobs to run
+2025-06-19 20:12:44 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:12:50 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:12:50 [info     ] send_at: 2025-06-19 20:12:55.120809 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:12:50 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:12:50 [debug    ] Looking for jobs to run
+2025-06-19 20:12:50 [debug    ] Next wakeup is due at 2025-06-19 20:12:55.120809+07:00 (in 4.991988 seconds)
+2025-06-19 20:12:55 [debug    ] Looking for jobs to run
+2025-06-19 20:12:55 [info     ] Removed job send_585896156_1750338775.120809
+2025-06-19 20:12:55 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:12:55 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:12:55 +07], next run at: 2025-06-19 20:12:55 +07)" (scheduled at 2025-06-19 20:12:55.120809+07:00)
+2025-06-19 20:12:55 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=17
+2025-06-19 20:12:55 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:12:55 +07], next run at: 2025-06-19 20:12:55 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 18, in send_telegram_message
+    await bot.send_video(chat_id, video_path, caption='caption')
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 3233, in send_video
+    return await self(call, request_timeout=request_timeout)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: wrong type of the web page content
+2025-06-19 20:13:56 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=49
+2025-06-19 20:14:11 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:14:11 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:14:11 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:14:11 [debug    ] Looking up time zone info from registry
+2025-06-19 20:14:11 [info     ] Scheduler started
+2025-06-19 20:14:11 [debug    ] Looking for jobs to run
+2025-06-19 20:14:11 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:14:16 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:14:16 [info     ] send_at: 2025-06-19 20:14:21.153336 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:14:16 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:14:16 [debug    ] Looking for jobs to run
+2025-06-19 20:14:16 [debug    ] Next wakeup is due at 2025-06-19 20:14:21.153336+07:00 (in 4.995201 seconds)
+2025-06-19 20:14:21 [debug    ] Looking for jobs to run
+2025-06-19 20:14:21 [info     ] Removed job send_585896156_1750338861.153336
+2025-06-19 20:14:21 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:14:21 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:14:21 +07], next run at: 2025-06-19 20:14:21 +07)" (scheduled at 2025-06-19 20:14:21.153336+07:00)
+2025-06-19 20:14:21 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=17
+2025-06-19 20:14:21 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:14:21 +07], next run at: 2025-06-19 20:14:21 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 18, in send_telegram_message
+    with open(video_path, "rb") as video:
+FileNotFoundError: [Errno 2] No such file or directory: 'video.mp4'
+2025-06-19 20:14:36 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:14:38 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:14:38 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:14:38 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:14:38 [debug    ] Looking up time zone info from registry
+2025-06-19 20:14:38 [info     ] Scheduler started
+2025-06-19 20:14:38 [debug    ] Looking for jobs to run
+2025-06-19 20:14:38 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:14:44 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:14:44 [info     ] send_at: 2025-06-19 20:14:49.122707 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:14:44 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:14:44 [debug    ] Looking for jobs to run
+2025-06-19 20:14:44 [debug    ] Next wakeup is due at 2025-06-19 20:14:49.122707+07:00 (in 4.994141 seconds)
+2025-06-19 20:14:49 [debug    ] Looking for jobs to run
+2025-06-19 20:14:49 [info     ] Removed job send_585896156_1750338889.122707
+2025-06-19 20:14:49 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:14:49 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:14:49 +07], next run at: 2025-06-19 20:14:49 +07)" (scheduled at 2025-06-19 20:14:49.122707+07:00)
+2025-06-19 20:14:49 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=17
+2025-06-19 20:14:49 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:14:49 +07], next run at: 2025-06-19 20:14:49 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 18, in send_telegram_message
+    with open(video_path, "rb") as video:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Dev\\Freelance\\Telegram Bots\\RateCopyBot\\video.mp4'
+2025-06-19 20:14:55 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:14:57 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:14:57 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:14:57 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:14:57 [debug    ] Looking up time zone info from registry
+2025-06-19 20:14:57 [info     ] Scheduler started
+2025-06-19 20:14:57 [debug    ] Looking for jobs to run
+2025-06-19 20:14:57 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:14:59 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:14:59 [info     ] send_at: 2025-06-19 20:15:04.527544 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:14:59 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:14:59 [debug    ] Looking for jobs to run
+2025-06-19 20:14:59 [debug    ] Next wakeup is due at 2025-06-19 20:15:04.527544+07:00 (in 4.994066 seconds)
+2025-06-19 20:15:04 [debug    ] Looking for jobs to run
+2025-06-19 20:15:04 [info     ] Removed job send_585896156_1750338904.527544
+2025-06-19 20:15:04 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:15:04 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:15:04 +07], next run at: 2025-06-19 20:15:04 +07)" (scheduled at 2025-06-19 20:15:04.527544+07:00)
+2025-06-19 20:15:04 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=17
+2025-06-19 20:15:04 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:15:04 +07], next run at: 2025-06-19 20:15:04 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 18, in send_telegram_message
+    with open(video_path, "rb") as video:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\Dev\\Freelance\\Telegram Bots\\RateCopyBot\\video.MP4'
+2025-06-19 20:15:19 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:15:22 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:15:22 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:15:22 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:15:22 [debug    ] Looking up time zone info from registry
+2025-06-19 20:15:22 [info     ] Scheduler started
+2025-06-19 20:15:22 [debug    ] Looking for jobs to run
+2025-06-19 20:15:22 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:15:25 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:15:25 [info     ] send_at: 2025-06-19 20:15:30.217080 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:15:25 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:15:25 [debug    ] Looking for jobs to run
+2025-06-19 20:15:25 [debug    ] Next wakeup is due at 2025-06-19 20:15:30.217080+07:00 (in 4.992993 seconds)
+2025-06-19 20:15:30 [debug    ] Looking for jobs to run
+2025-06-19 20:15:30 [info     ] Removed job send_585896156_1750338930.21708
+2025-06-19 20:15:30 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:15:30 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:15:30 +07], next run at: 2025-06-19 20:15:30 +07)" (scheduled at 2025-06-19 20:15:30.217080+07:00)
+2025-06-19 20:15:30 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=17
+2025-06-19 20:15:30 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:15:30 +07], next run at: 2025-06-19 20:15:30 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 20, in send_telegram_message
+    await bot.send_video(chat_id, video, caption='caption')
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 3207, in send_video
+    call = SendVideo(
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for SendVideo
+video.str
+  Input should be a valid string [type=string_type, input_value=<_io.BufferedReader name=...RateCopyBot\\video.MP4'>, input_type=BufferedReader]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+video.is-instance[InputFile]
+  Input should be an instance of InputFile [type=is_instance_of, input_value=<_io.BufferedReader name=...RateCopyBot\\video.MP4'>, input_type=BufferedReader]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+2025-06-19 20:16:27 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:16:29 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:16:29 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:16:29 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=22
+2025-06-19 20:16:29 [debug    ] Looking up time zone info from registry
+2025-06-19 20:16:29 [info     ] Scheduler started
+2025-06-19 20:16:29 [debug    ] Looking for jobs to run
+2025-06-19 20:16:29 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:16:35 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:16:35 [info     ] send_at: 2025-06-19 20:16:40.406565 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:16:35 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:16:35 [debug    ] Looking for jobs to run
+2025-06-19 20:16:35 [debug    ] Next wakeup is due at 2025-06-19 20:16:40.406565+07:00 (in 4.994258 seconds)
+2025-06-19 20:16:40 [debug    ] Looking for jobs to run
+2025-06-19 20:16:40 [info     ] Removed job send_585896156_1750339000.406565
+2025-06-19 20:16:40 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:16:40 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:16:40 +07], next run at: 2025-06-19 20:16:40 +07)" (scheduled at 2025-06-19 20:16:40.406565+07:00)
+2025-06-19 20:16:40 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=18
+2025-06-19 20:16:40 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:16:40 +07], next run at: 2025-06-19 20:16:40 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 19, in send_telegram_message
+    await bot.send_video(chat_id, InputFile(video_path), caption='caption')
+TypeError: Can't instantiate abstract class InputFile with abstract method read
+2025-06-19 20:17:25 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=50
+2025-06-19 20:17:27 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:17:27 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:17:27 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:17:27 [debug    ] Looking up time zone info from registry
+2025-06-19 20:17:27 [info     ] Scheduler started
+2025-06-19 20:17:27 [debug    ] Looking for jobs to run
+2025-06-19 20:17:27 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:17:33 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:17:33 [info     ] send_at: 2025-06-19 20:17:38.134536 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:17:33 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:17:33 [debug    ] Looking for jobs to run
+2025-06-19 20:17:33 [debug    ] Next wakeup is due at 2025-06-19 20:17:38.134536+07:00 (in 4.994144 seconds)
+2025-06-19 20:17:38 [debug    ] Looking for jobs to run
+2025-06-19 20:17:38 [info     ] Removed job send_585896156_1750339058.134536
+2025-06-19 20:17:38 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:17:38 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:17:38 +07], next run at: 2025-06-19 20:17:38 +07)" (scheduled at 2025-06-19 20:17:38.134536+07:00)
+2025-06-19 20:17:38 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=18
+2025-06-19 20:17:39 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:17:38 +07], next run at: 2025-06-19 20:17:38 +07)" executed successfully
+2025-06-19 20:19:08 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:19:10 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:19:10 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:19:10 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:19:10 [debug    ] Looking up time zone info from registry
+2025-06-19 20:19:10 [info     ] Scheduler started
+2025-06-19 20:19:10 [debug    ] Looking for jobs to run
+2025-06-19 20:19:10 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:19:16 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:19:16 [info     ] send_at: 2025-06-19 20:19:21.373242 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:19:16 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:19:16 [debug    ] Looking for jobs to run
+2025-06-19 20:19:16 [debug    ] Next wakeup is due at 2025-06-19 20:19:21.373242+07:00 (in 4.994235 seconds)
+2025-06-19 20:19:21 [debug    ] Looking for jobs to run
+2025-06-19 20:19:21 [info     ] Removed job send_585896156_1750339161.373242
+2025-06-19 20:19:21 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:19:21 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:19:21 +07], next run at: 2025-06-19 20:19:21 +07)" (scheduled at 2025-06-19 20:19:21.373242+07:00)
+2025-06-19 20:19:21 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=18
+2025-06-19 20:19:22 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:19:21 +07], next run at: 2025-06-19 20:19:21 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 20, in send_telegram_message
+    await bot.send_video(chat_id, video, caption=text)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 3233, in send_video
+    return await self(call, request_timeout=request_timeout)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message caption is too long
+2025-06-19 20:20:51 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:20:53 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:20:53 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:20:53 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:20:53 [debug    ] Looking up time zone info from registry
+2025-06-19 20:20:53 [info     ] Scheduler started
+2025-06-19 20:20:53 [debug    ] Looking for jobs to run
+2025-06-19 20:20:53 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:21:01 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:21:01 [info     ] send_at: 2025-06-19 20:21:06.435546 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=55
+2025-06-19 20:21:01 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:21:01 [info     ] 1379                           [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=63
+2025-06-19 20:21:01 [debug    ] Looking for jobs to run
+2025-06-19 20:21:01 [debug    ] Next wakeup is due at 2025-06-19 20:21:06.435546+07:00 (in 4.993432 seconds)
+2025-06-19 20:21:06 [debug    ] Looking for jobs to run
+2025-06-19 20:21:06 [info     ] Removed job send_585896156_1750339266.435546
+2025-06-19 20:21:06 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:21:06 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:21:06 +07], next run at: 2025-06-19 20:21:06 +07)" (scheduled at 2025-06-19 20:21:06.435546+07:00)
+2025-06-19 20:21:06 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=18
+2025-06-19 20:21:07 [error    ] Job "send_telegram_message (trigger: date[2025-06-19 20:21:06 +07], next run at: 2025-06-19 20:21:06 +07)" raised an exception
+Traceback (most recent call last):
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\main.py", line 20, in send_telegram_message
+    await bot.send_video(chat_id, video, caption=text)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 3233, in send_video
+    return await self(call, request_timeout=request_timeout)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+  File "F:\Dev\Freelance\Telegram Bots\RateCopyBot\venv\lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message caption is too long
+2025-06-19 20:22:46 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:22:49 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:22:49 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:22:49 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:22:49 [debug    ] Looking up time zone info from registry
+2025-06-19 20:22:49 [info     ] Scheduler started
+2025-06-19 20:22:49 [debug    ] Looking for jobs to run
+2025-06-19 20:22:49 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:23:07 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:23:09 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:23:09 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:23:09 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:23:09 [debug    ] Looking up time zone info from registry
+2025-06-19 20:23:09 [info     ] Scheduler started
+2025-06-19 20:23:09 [debug    ] Looking for jobs to run
+2025-06-19 20:23:09 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:23:16 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:23:16 [info     ] send_at: 2025-06-19 20:23:21.121492 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:23:16 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:23:16 [info     ] 488                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:23:16 [debug    ] Looking for jobs to run
+2025-06-19 20:23:16 [debug    ] Next wakeup is due at 2025-06-19 20:23:21.121492+07:00 (in 4.993598 seconds)
+2025-06-19 20:23:21 [debug    ] Looking for jobs to run
+2025-06-19 20:23:21 [info     ] Removed job send_585896156_1750339401.121492
+2025-06-19 20:23:21 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:23:21 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:23:21 +07], next run at: 2025-06-19 20:23:21 +07)" (scheduled at 2025-06-19 20:23:21.121492+07:00)
+2025-06-19 20:23:21 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=18
+2025-06-19 20:23:22 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:23:21 +07], next run at: 2025-06-19 20:23:21 +07)" executed successfully
+2025-06-19 20:25:24 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:25:26 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:25:26 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:25:26 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=23
+2025-06-19 20:25:26 [debug    ] Looking up time zone info from registry
+2025-06-19 20:25:26 [info     ] Scheduler started
+2025-06-19 20:25:26 [debug    ] Looking for jobs to run
+2025-06-19 20:25:26 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:25:37 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:25:37 [info     ] send_at: 2025-06-19 20:25:42.105446 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:25:37 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:25:37 [info     ] 509                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:25:37 [debug    ] Looking for jobs to run
+2025-06-19 20:25:37 [debug    ] Next wakeup is due at 2025-06-19 20:25:42.105446+07:00 (in 4.993140 seconds)
+2025-06-19 20:25:42 [debug    ] Looking for jobs to run
+2025-06-19 20:25:42 [info     ] Removed job send_585896156_1750339542.105446
+2025-06-19 20:25:42 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:25:42 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:25:42 +07], next run at: 2025-06-19 20:25:42 +07)" (scheduled at 2025-06-19 20:25:42.105446+07:00)
+2025-06-19 20:25:42 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=18
+2025-06-19 20:25:43 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:25:42 +07], next run at: 2025-06-19 20:25:42 +07)" executed successfully
+2025-06-19 20:26:00 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=51
+2025-06-19 20:26:02 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:26:02 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:26:02 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:26:02 [debug    ] Looking up time zone info from registry
+2025-06-19 20:26:02 [info     ] Scheduler started
+2025-06-19 20:26:02 [debug    ] Looking for jobs to run
+2025-06-19 20:26:03 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:26:07 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:26:07 [info     ] send_at: 2025-06-19 20:26:12.648364 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:26:07 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:26:07 [info     ] 509                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:26:07 [debug    ] Looking for jobs to run
+2025-06-19 20:26:07 [debug    ] Next wakeup is due at 2025-06-19 20:26:12.648364+07:00 (in 4.994657 seconds)
+2025-06-19 20:26:12 [debug    ] Looking for jobs to run
+2025-06-19 20:26:12 [info     ] Removed job send_585896156_1750339572.648364
+2025-06-19 20:26:12 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:26:12 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:26:12 +07], next run at: 2025-06-19 20:26:12 +07)" (scheduled at 2025-06-19 20:26:12.648364+07:00)
+2025-06-19 20:26:12 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:26:14 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:26:12 +07], next run at: 2025-06-19 20:26:12 +07)" executed successfully
+2025-06-19 20:28:44 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:28:46 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:28:46 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:28:46 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:28:46 [debug    ] Looking up time zone info from registry
+2025-06-19 20:28:46 [info     ] Scheduler started
+2025-06-19 20:28:46 [debug    ] Looking for jobs to run
+2025-06-19 20:28:46 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:28:52 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:28:52 [info     ] send_at: 2025-06-19 20:28:53.602476 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:28:52 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:28:52 [info     ] 518                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:28:52 [debug    ] Looking for jobs to run
+2025-06-19 20:28:52 [debug    ] Next wakeup is due at 2025-06-19 20:28:53.602476+07:00 (in 0.994116 seconds)
+2025-06-19 20:28:53 [debug    ] Looking for jobs to run
+2025-06-19 20:28:53 [info     ] Removed job send_585896156_1750339733.602476
+2025-06-19 20:28:53 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:28:53 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:28:53 +07], next run at: 2025-06-19 20:28:53 +07)" (scheduled at 2025-06-19 20:28:53.602476+07:00)
+2025-06-19 20:28:53 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:28:55 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:28:53 +07], next run at: 2025-06-19 20:28:53 +07)" executed successfully
+2025-06-19 20:29:23 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:29:25 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:29:25 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:29:25 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:29:25 [debug    ] Looking up time zone info from registry
+2025-06-19 20:29:25 [info     ] Scheduler started
+2025-06-19 20:29:25 [debug    ] Looking for jobs to run
+2025-06-19 20:29:25 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:29:32 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:29:32 [info     ] send_at: 2025-06-19 20:29:33.884656 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:29:32 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:29:32 [info     ] 517                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:29:32 [debug    ] Looking for jobs to run
+2025-06-19 20:29:32 [debug    ] Next wakeup is due at 2025-06-19 20:29:33.884656+07:00 (in 0.994236 seconds)
+2025-06-19 20:29:33 [debug    ] Looking for jobs to run
+2025-06-19 20:29:33 [info     ] Removed job send_585896156_1750339773.884656
+2025-06-19 20:29:33 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:29:33 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:29:33 +07], next run at: 2025-06-19 20:29:33 +07)" (scheduled at 2025-06-19 20:29:33.884656+07:00)
+2025-06-19 20:29:33 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:29:35 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:29:33 +07], next run at: 2025-06-19 20:29:33 +07)" executed successfully
+2025-06-19 20:30:06 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:30:08 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:30:08 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:30:08 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:30:08 [debug    ] Looking up time zone info from registry
+2025-06-19 20:30:09 [info     ] Scheduler started
+2025-06-19 20:30:09 [debug    ] Looking for jobs to run
+2025-06-19 20:30:09 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:30:16 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:30:16 [info     ] send_at: 2025-06-19 20:30:17.310913 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=74
+2025-06-19 20:30:16 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:30:16 [info     ] 529                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=82
+2025-06-19 20:30:16 [debug    ] Looking for jobs to run
+2025-06-19 20:30:16 [debug    ] Next wakeup is due at 2025-06-19 20:30:17.310913+07:00 (in 0.993110 seconds)
+2025-06-19 20:30:17 [debug    ] Looking for jobs to run
+2025-06-19 20:30:17 [info     ] Removed job send_585896156_1750339817.310913
+2025-06-19 20:30:17 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:30:17 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:30:17 +07], next run at: 2025-06-19 20:30:17 +07)" (scheduled at 2025-06-19 20:30:17.310913+07:00)
+2025-06-19 20:30:17 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:30:18 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:30:17 +07], next run at: 2025-06-19 20:30:17 +07)" executed successfully
+2025-06-19 20:31:00 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:31:02 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:31:02 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:31:02 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:31:02 [debug    ] Looking up time zone info from registry
+2025-06-19 20:31:02 [info     ] Scheduler started
+2025-06-19 20:31:02 [debug    ] Looking for jobs to run
+2025-06-19 20:31:02 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:31:06 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:31:06 [info     ] send_at: 2025-06-19 20:31:07.322311 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:31:06 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:31:06 [info     ] 506                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:31:06 [debug    ] Looking for jobs to run
+2025-06-19 20:31:06 [debug    ] Next wakeup is due at 2025-06-19 20:31:07.322311+07:00 (in 0.993548 seconds)
+2025-06-19 20:31:07 [debug    ] Looking for jobs to run
+2025-06-19 20:31:07 [info     ] Removed job send_585896156_1750339867.322311
+2025-06-19 20:31:07 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:31:07 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:31:07 +07], next run at: 2025-06-19 20:31:07 +07)" (scheduled at 2025-06-19 20:31:07.322311+07:00)
+2025-06-19 20:31:07 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:31:08 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:31:07 +07], next run at: 2025-06-19 20:31:07 +07)" executed successfully
+2025-06-19 20:31:19 [debug    ] echo None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=89
+2025-06-19 20:32:06 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:32:08 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:32:08 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:32:08 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:32:08 [debug    ] Looking up time zone info from registry
+2025-06-19 20:32:08 [info     ] Scheduler started
+2025-06-19 20:32:08 [debug    ] Looking for jobs to run
+2025-06-19 20:32:08 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:32:18 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:32:18 [info     ] send_at: 2025-06-19 20:32:19.262399 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:32:18 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:32:18 [info     ] 546                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:32:18 [debug    ] Looking for jobs to run
+2025-06-19 20:32:18 [debug    ] Next wakeup is due at 2025-06-19 20:32:19.262399+07:00 (in 0.993690 seconds)
+2025-06-19 20:32:19 [debug    ] Looking for jobs to run
+2025-06-19 20:32:19 [info     ] Removed job send_585896156_1750339939.262399
+2025-06-19 20:32:19 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:32:19 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:32:19 +07], next run at: 2025-06-19 20:32:19 +07)" (scheduled at 2025-06-19 20:32:19.262399+07:00)
+2025-06-19 20:32:19 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:32:20 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:32:19 +07], next run at: 2025-06-19 20:32:19 +07)" executed successfully
+2025-06-19 20:32:25 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:32:27 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:32:27 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:32:28 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:32:28 [debug    ] Looking up time zone info from registry
+2025-06-19 20:32:28 [info     ] Scheduler started
+2025-06-19 20:32:28 [debug    ] Looking for jobs to run
+2025-06-19 20:32:28 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:32:31 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:32:31 [info     ] send_at: 2025-06-19 20:32:32.118630 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:32:31 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:32:31 [info     ] 545                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:32:31 [debug    ] Looking for jobs to run
+2025-06-19 20:32:31 [debug    ] Next wakeup is due at 2025-06-19 20:32:32.118630+07:00 (in 0.993186 seconds)
+2025-06-19 20:32:32 [debug    ] Looking for jobs to run
+2025-06-19 20:32:32 [info     ] Removed job send_585896156_1750339952.11863
+2025-06-19 20:32:32 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:32:32 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:32:32 +07], next run at: 2025-06-19 20:32:32 +07)" (scheduled at 2025-06-19 20:32:32.118630+07:00)
+2025-06-19 20:32:32 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:32:33 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:32:32 +07], next run at: 2025-06-19 20:32:32 +07)" executed successfully
+2025-06-19 20:33:20 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:33:22 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:33:22 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:33:22 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:33:22 [debug    ] Looking up time zone info from registry
+2025-06-19 20:33:22 [info     ] Scheduler started
+2025-06-19 20:33:22 [debug    ] Looking for jobs to run
+2025-06-19 20:33:22 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:33:28 [info     ] ['309', '25 600', '25 300']    [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:33:28 [info     ] send_at: 2025-06-19 20:33:29.229088 [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=75
+2025-06-19 20:33:28 [info     ] Added job "send_telegram_message" to job store "default"
+2025-06-19 20:33:28 [info     ] 545                            [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=83
+2025-06-19 20:33:28 [debug    ] Looking for jobs to run
+2025-06-19 20:33:28 [debug    ] Next wakeup is due at 2025-06-19 20:33:29.229088+07:00 (in 0.992566 seconds)
+2025-06-19 20:33:29 [debug    ] Looking for jobs to run
+2025-06-19 20:33:29 [info     ] Removed job send_585896156_1750340009.229088
+2025-06-19 20:33:29 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:33:29 [info     ] Running job "send_telegram_message (trigger: date[2025-06-19 20:33:29 +07], next run at: 2025-06-19 20:33:29 +07)" (scheduled at 2025-06-19 20:33:29.229088+07:00)
+2025-06-19 20:33:29 [info     ] send_telegram_message -1001960686782 [main] filename=main.py func_name=send_telegram_message lineno=19
+2025-06-19 20:33:30 [info     ] Job "send_telegram_message (trigger: date[2025-06-19 20:33:29 +07], next run at: 2025-06-19 20:33:29 +07)" executed successfully
+2025-06-19 20:33:46 [debug    ] echo None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=89
+2025-06-19 20:33:54 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:33:58 [info     ] []                             [handlers.user_handlers] filename=user_handlers.py func_name=extract_exchange_rates lineno=29
+2025-06-19 20:34:28 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:51:01 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:51:01 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:51:01 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:51:01 [debug    ] Looking up time zone info from registry
+2025-06-19 20:51:01 [info     ] Scheduler started
+2025-06-19 20:51:01 [debug    ] Looking for jobs to run
+2025-06-19 20:51:01 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:51:12 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
+2025-06-19 20:51:36 [debug    ] Логгер debug                   [file] filename=conf.py func_name=<module> lineno=172
+2025-06-19 20:51:36 [info     ] Логгер OK                      [file] filename=conf.py func_name=<module> lineno=173
+2025-06-19 20:51:36 [info     ] Starting bot                   [__main__] filename=main.py func_name=main lineno=24
+2025-06-19 20:51:36 [debug    ] Looking up time zone info from registry
+2025-06-19 20:51:36 [info     ] Scheduler started
+2025-06-19 20:51:36 [debug    ] Looking for jobs to run
+2025-06-19 20:51:36 [debug    ] No jobs; waiting until a job is added
+2025-06-19 20:51:37 [info     ] Bot stopped!                   [__main__] filename=main.py func_name=<module> lineno=52
