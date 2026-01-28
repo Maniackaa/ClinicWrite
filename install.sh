@@ -32,13 +32,40 @@ if ! id "$SERVICE_USER" &>/dev/null; then
     chown -R "$SERVICE_USER:$SERVICE_USER" "$PROJECT_DIR"
 fi
 
-# Копирование service файла
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-cp "$SCRIPT_DIR/clinic-bot.service" "/etc/systemd/system/$PROJECT_NAME.service"
+# Определение пути к Python
+if command -v python3.12 &> /dev/null; then
+    PYTHON_PATH="/usr/bin/python3.12"
+elif command -v python3.11 &> /dev/null; then
+    PYTHON_PATH="/usr/bin/python3.11"
+elif command -v python3.10 &> /dev/null; then
+    PYTHON_PATH="/usr/bin/python3.10"
+else
+    PYTHON_PATH="/usr/bin/python3"
+fi
 
-# Обновление путей в service файле (если нужно)
-sed -i "s|/opt/clinic-bot|$PROJECT_DIR|g" "/etc/systemd/system/$PROJECT_NAME.service"
-sed -i "s|clinicbot|$SERVICE_USER|g" "/etc/systemd/system/$PROJECT_NAME.service"
+# Создание service файла
+cat > "/etc/systemd/system/$PROJECT_NAME.service" << EOF
+[Unit]
+Description=ROYAL Clinic Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=$SERVICE_USER
+WorkingDirectory=$PROJECT_DIR
+ExecStart=$PYTHON_PATH $PROJECT_DIR/main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=$PROJECT_NAME
+
+# Ограничения ресурсов
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
+EOF
 
 # Перезагрузка systemd
 systemctl daemon-reload

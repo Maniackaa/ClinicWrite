@@ -27,7 +27,6 @@ elif command -v python3 &> /dev/null; then
 else
     PYTHON_VERSION="python3"
 fi
-VENV_DIR="$PROJECT_DIR/venv"
 
 echo -e "${GREEN}=== Развертывание Telegram бота ROYAL Clinic ===${NC}"
 
@@ -97,14 +96,10 @@ if [ "$PYTHON_MAJOR" -lt 3 ] || ([ "$PYTHON_MAJOR" -eq 3 ] && [ "$PYTHON_MINOR" 
     exit 1
 fi
 
-# Создание виртуального окружения
-echo -e "${YELLOW}Создание виртуального окружения...${NC}"
-sudo -u "$SERVICE_USER" $PYTHON_VERSION -m venv "$VENV_DIR"
-
-# Активация виртуального окружения и установка зависимостей
-echo -e "${YELLOW}Установка зависимостей...${NC}"
-sudo -u "$SERVICE_USER" "$VENV_DIR/bin/pip" install --upgrade pip
-sudo -u "$SERVICE_USER" "$VENV_DIR/bin/pip" install -r "$PROJECT_DIR/requirements.txt"
+# Установка зависимостей в системный Python
+echo -e "${YELLOW}Установка зависимостей в системный Python...${NC}"
+$PYTHON_VERSION -m pip install --upgrade pip setuptools wheel --break-system-packages
+$PYTHON_VERSION -m pip install -r "$PROJECT_DIR/requirements.txt" --break-system-packages
 
 # Проверка наличия .env файла
 if [ ! -f "$PROJECT_DIR/.env" ]; then
@@ -152,8 +147,7 @@ After=network.target
 Type=simple
 User=$SERVICE_USER
 WorkingDirectory=$PROJECT_DIR
-Environment="PATH=$VENV_DIR/bin"
-ExecStart=$VENV_DIR/bin/python $PROJECT_DIR/main.py
+ExecStart=$(which $PYTHON_VERSION) $PROJECT_DIR/main.py
 Restart=always
 RestartSec=10
 StandardOutput=journal

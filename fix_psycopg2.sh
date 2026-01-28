@@ -36,20 +36,25 @@ fi
 
 echo "pg_config найден: $(which pg_config)"
 
-# Обновление pip и установка psycopg2-binary
-if [ -d "$VENV_DIR" ]; then
-    echo "Обновление pip в виртуальном окружении..."
-    "$VENV_DIR/bin/pip" install --upgrade pip setuptools wheel
-    
-    echo "Установка psycopg2-binary..."
-    "$VENV_DIR/bin/pip" install --no-cache-dir "psycopg2-binary>=2.9.9"
-    
-    echo "Проверка установки..."
-    "$VENV_DIR/bin/python" -c "import psycopg2; print('psycopg2 успешно установлен:', psycopg2.__version__)"
-    
-    echo "=== Проблема исправлена! ==="
+# Определение версии Python
+if command -v python3.12 &> /dev/null; then
+    PYTHON="python3.12"
+elif command -v python3.11 &> /dev/null; then
+    PYTHON="python3.11"
+elif command -v python3.10 &> /dev/null; then
+    PYTHON="python3.10"
 else
-    echo "Виртуальное окружение не найдено в $VENV_DIR"
-    echo "Сначала запустите deploy.sh"
-    exit 1
+    PYTHON="python3"
 fi
+
+# Обновление pip и установка psycopg2-binary в системный Python
+echo "Обновление pip..."
+$PYTHON -m pip install --upgrade pip setuptools wheel --break-system-packages
+
+echo "Установка psycopg2-binary..."
+$PYTHON -m pip install --no-cache-dir "psycopg2-binary>=2.9.9" --break-system-packages
+
+echo "Проверка установки..."
+$PYTHON -c "import psycopg2; print('psycopg2 успешно установлен:', psycopg2.__version__)"
+
+echo "=== Проблема исправлена! ==="

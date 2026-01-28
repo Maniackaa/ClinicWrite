@@ -6,8 +6,7 @@ After=network.target
 Type=simple
 User=clinicbot
 WorkingDirectory=/opt/clinic-bot
-Environment="PATH=/opt/clinic-bot/venv/bin"
-ExecStart=/opt/clinic-bot/venv/bin/python /opt/clinic-bot/main.py
+ExecStart=/usr/bin/python3 /opt/clinic-bot/main.py
 Restart=always
 RestartSec=10
 StandardOutput=journal

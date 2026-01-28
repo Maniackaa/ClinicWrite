@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Скрипт для установки зависимостей в системный Python
-# Использование: sudo ./install_dependencies.sh
+# Использование: sudo ./install_system.sh
 
 set -e
 
@@ -11,7 +11,7 @@ echo "=== Установка зависимостей в системный Pyth
 
 # Проверка прав root
 if [ "$EUID" -ne 0 ]; then 
-    echo "Ошибка: Запустите скрипт с правами root (sudo ./install_dependencies.sh)"
+    echo "Ошибка: Запустите скрипт с правами root (sudo ./install_system.sh)"
     exit 1
 fi
 
@@ -28,7 +28,7 @@ fi
 
 echo "Используется Python: $($PYTHON --version)"
 
-# Установка системных зависимостей для PostgreSQL
+# Установка системных зависимостей
 echo "Установка системных зависимостей..."
 apt-get update
 apt-get install -y libpq-dev postgresql-client build-essential python3-dev pkg-config || true
@@ -37,12 +37,16 @@ apt-get install -y libpq-dev postgresql-client build-essential python3-dev pkg-c
 echo "Обновление pip..."
 $PYTHON -m pip install --upgrade pip setuptools wheel --break-system-packages
 
-# Установка зависимостей
+# Установка зависимостей из requirements.txt
 echo "Установка зависимостей из requirements.txt..."
 $PYTHON -m pip install -r "$PROJECT_DIR/requirements.txt" --break-system-packages
 
-# Проверка установки основных модулей
+# Проверка установки
 echo "Проверка установки модулей..."
 $PYTHON -c "import structlog; import aiogram; print('✅ Основные модули установлены')"
 
 echo "=== Зависимости установлены в системный Python! ==="
+echo ""
+echo "Теперь можно запустить бота:"
+echo "  sudo systemctl start clinic-bot"
+echo "  sudo systemctl status clinic-bot"
