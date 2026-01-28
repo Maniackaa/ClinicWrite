@@ -33,9 +33,10 @@ echo "Установка системных зависимостей..."
 apt-get update
 apt-get install -y libpq-dev postgresql-client build-essential python3-dev pkg-config || true
 
-# Обновление pip
+# Обновление pip (игнорируем ошибки с системными пакетами)
 echo "Обновление pip..."
-$PYTHON -m pip install --upgrade pip setuptools wheel --break-system-packages
+$PYTHON -m pip install --upgrade pip --break-system-packages 2>/dev/null || true
+$PYTHON -m pip install --upgrade --user pip setuptools wheel --break-system-packages 2>/dev/null || true
 
 # Установка зависимостей из requirements.txt
 echo "Установка зависимостей из requirements.txt..."
