@@ -62,7 +62,7 @@ DOCTORS = {
         profession="репродуктолог",
         photo_filename="shibanova.jpeg",
         video_filename="shibanova.mov",
-        video_id="BAACAgIAAxkBAAI7JmmTRjHA3FG3reh5gVVCVGQadc6lAAI7kgAClnmZSFt2MCXDgVnWOgQ",
+        video_id=None,
         description="""Главный врач, кандидат медицинских наук, врач акушер-гинеколог, репродуктолог
 
 Владеет всеми современными методами лечения бесплодия, ВРТ; УЗ-диагностики, организации здравоохранения.

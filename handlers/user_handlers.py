@@ -9,6 +9,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery, FSInputFile, InputFile, Contact, ReplyKeyboardRemove
+from aiogram.exceptions import TelegramBadRequest
 
 from config_data.conf import conf, BASE_DIR
 from main import send_telegram_message
@@ -557,11 +558,17 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
         if has_video or has_photo:
             await callback.message.delete()
             if has_video:
-                await bot.send_video(
-                    chat_id=callback.from_user.id,
-                    video=video_id
-                )
-                logger.info(f'Видео отправлено для врача {doctor.name}')
+                try:
+                    await bot.send_video(
+                        chat_id=callback.from_user.id,
+                        video=video_id
+                    )
+                    logger.info(f'Видео отправлено для врача {doctor.name}')
+                except TelegramBadRequest as e:
+                    if "wrong file identifier" in str(e).lower() or "file identifier" in str(e).lower():
+                        logger.warning(f'Неверный video_id для врача {doctor.name}, видео пропущено: {e}')
+                    else:
+                        raise
             # 2) Затем фото с текстом и кнопкой «Записаться» или только текст с кнопкой
             kb = get_doctor_info_kb(doctor.name, profession)
             if has_photo:
