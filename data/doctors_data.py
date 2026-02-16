@@ -62,7 +62,7 @@ DOCTORS = {
         profession="репродуктолог",
         photo_filename="shibanova.jpeg",
         video_filename="shibanova.mov",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID2mmTU8fA6HsgTgJz_7BJlP3fJIP6AAKhoAACfeSZSH8FC8AnwIgNOgQ",
         description="""Главный врач, кандидат медицинских наук, врач акушер-гинеколог, репродуктолог
 
 Владеет всеми современными методами лечения бесплодия, ВРТ; УЗ-диагностики, организации здравоохранения.
@@ -74,7 +74,7 @@ DOCTORS = {
         profession="репродуктолог",
         photo_filename="pipilenko.jpeg",
         video_filename="pipilenko.mp4",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID9mmTY1iR3v4iGK_xBixg_CX--4V8AAL3oQACfeSZSJXkj5ZcbV8gOgQ",
         description="""Врач-акушер гинеколог, репродуктолог. Стаж работы по специальности — 20 лет
 
 Специализация:
@@ -85,7 +85,7 @@ DOCTORS = {
         profession="репродуктолог",
         photo_filename="artemenkoy.jpeg",
         video_filename="artemenkoy.mp4",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID4mmTWAeJ5UnOVW4AAQbrVS3qYYRb6AACAqEAAn3kmUgTZ9CzE1mzjToE",
         description="""Врач акушер-гинеколог, репродуктолог, врач УЗД. Кандидат медицинских наук.
 
 Специализация:
@@ -98,7 +98,7 @@ DOCTORS = {
         profession="репродуктолог",
         photo_filename="kirikova.jpeg",
         video_filename="kirikova.mp4",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID6mmTYvOPa2cfxULiDesqjE5H89vYAALqoQACfeSZSHO5z7X0iIuqOgQ",
         description="""Врач Акушер-гинеколог, репродуктолог, хирург. Кандидат медицинских наук
 
 Специализация:
@@ -115,7 +115,7 @@ DOCTORS = {
         profession="гинеколог",
         photo_filename="polevshikova.jpeg",
         video_filename="polevshikova.mov",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID-mmTY38kmkk7mGUInHlpzqi40xFwAAL7oQACfeSZSCKPHShYpz_OOgQ",
         description="""Заместитель главного врача, врач акушер-гинеколог, репродуктолог. Кандидат медицинских наук.
 
 Специализируется на:
@@ -160,7 +160,7 @@ DOCTORS = {
         profession="уролог",
         photo_filename="artemenkos.jpeg",
         video_filename="artemenkos.mp4",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID3mmTVbKrbOKxrhy6_36IbaM6kY7EAALFoAACfeSZSLmyYs2pRTBROgQ",
         description="""Врач уролог, андролог
 
 Автор и соавтор более 30 научных публикаций. Выиграно 2 гранта на проведение НИР. Автор 4 патентов.
@@ -179,7 +179,7 @@ DOCTORS = {
         profession="уролог",
         photo_filename="shmelkov.jpeg",
         video_filename="shmelkov.mp4",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAID_mmTY5T1C9yk9K15G1Iy9wPA9GY1AAL-oQACfeSZSHkDv66be739OgQ",
         description="""Врач-уролог, андролог. Кандидат медицинских наук. Член Европейской ассоциации урологов и Российского общества урологов, а также профессиональной ассоциации андрологов России.
 
 Стаж работы по специальности 18 лет.
@@ -200,6 +200,7 @@ DOCTORS = {
         profession="УЗИ",
         photo_filename="bazel.jpeg",
         video_filename="bazel.mp4",
+        video_id=None,
         description="""Врач ультразвуковой диагностики
 
 Владеет современными методами исследования в ультразвуковой диагностике органов брюшной полости, мочевыделительной системы, предстательной железы, молочных желез, щитовидной железы, Эхо-КГ.
@@ -211,6 +212,7 @@ DOCTORS = {
         profession="УЗИ",
         photo_filename="sohlikova.jpeg",
         video_filename="sohlikova.mov",
+        video_id="BAACAgIAAxkBAAIEAmmTY6cdjoryVUzqs3NSsHxY7eybAAIBogACfeSZSDgOLGB2DBsHOgQ",
         description="""Врач ультразвуковой диагностики
 
 Владеет современными методами исследования в ультразвуковой диагностике органов брюшной полости, мочевыделительной системы, предстательной железы, молочных желез, щитовидной железы, Эхо-КГ."""
@@ -220,6 +222,7 @@ DOCTORS = {
         profession="УЗИ",
         photo_filename="smolina.jpeg",
         video_filename="smolina.mp4",
+        video_id=None,
         description="""Врач ультразвуковой диагностики высшей квалификационной категории, член РАСУДМ и ISOUG.
 
 Имеет опыт работы в условиях хирургического, урологического, травматологического, гинекологического, неврологического, кардиологического, терапевтического стационаров.
@@ -235,6 +238,7 @@ DOCTORS = {
         profession="УЗИ",
         photo_filename="karpova.jpg",
         video_filename="karpova.mp4",
+        video_id="BAACAgIAAxkBAAID5mmTWaklHn8IPtBLk5RfmktwePoGAAIpoQACfeSZSBeStCNhguArOgQ",
         description="""Врач ультразвуковой диагностики.
 
 Стаж работы по специальности 14 лет.
@@ -250,6 +254,7 @@ DOCTORS = {
         profession="акушер-гинеколог, хирург",
         photo_filename="mashukova.jpg",
         video_filename="mashukova.mp4",
+        video_id="BAACAgIAAxkBAAID8mmTYz4mdtakL6CHbfpaGIcRKXYiAAL2oQACfeSZSDc_VsGXiCn2OgQ",
         description="""Врач акушер-гинеколог, хирург.
 
 Специализация:
@@ -274,6 +279,7 @@ DOCTORS = {
         profession="эндокринолог",
         photo_filename="lobanova.jpeg",
         video_filename="lobanova.mp4",
+        video_id="BAACAgIAAxkBAAID7mmTYycM5-TRjufxRf6UoYPE_97kAALzoQACfeSZSKUevHUdozrzOgQ",
         description="""Врач эндокринолог, диетолог, кандидат медицинских наук
 
 Специализация:
