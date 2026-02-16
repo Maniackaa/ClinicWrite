@@ -545,6 +545,9 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
         text = f"👨‍⚕️ <b>{doctor.name}</b>\n\n"
         text += f"Специальность: {doctor.profession}\n\n"
         text += f"{doctor.description}"
+        # Подпись к фото в Telegram — не более 1024 символов
+        caption_max = 1024
+        caption = text if len(text) <= caption_max else text[: caption_max - 1] + "…"
         
         # Видео отправляем только по video_id (файл с диска не отправляем)
         video_id = getattr(doctor, 'video_id', None)
@@ -567,7 +570,7 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
                     sent = await bot.send_photo(
                         chat_id=callback.from_user.id,
                         photo=photo_id,
-                        caption=text,
+                        caption=caption,
                         reply_markup=kb,
                         parse_mode=ParseMode.HTML
                     )
@@ -576,7 +579,7 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
                     sent = await bot.send_photo(
                         chat_id=callback.from_user.id,
                         photo=photo,
-                        caption=text,
+                        caption=caption,
                         reply_markup=kb,
                         parse_mode=ParseMode.HTML
                     )
