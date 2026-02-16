@@ -45,7 +45,6 @@ async def user_join(event: ChatMemberUpdated, bot: Bot):
 
     except Exception as err:
         logger.error(err)
-        err_log.error(err, exc_info=True)
         raise err
 
 
@@ -60,7 +59,6 @@ async def as_member(event: ChatMemberUpdated, bot: Bot):
         # await bot.send_message(chat_id=owner.id, text=f'Бот добавлен в канал {chat.id} {chat.title} как MEMBER  пользователем {owner.username} {owner.id}')
     except Exception as err:
         logger.error(err)
-        err_log.error(err, exc_info=True)
         raise err
 
 
@@ -74,7 +72,6 @@ async def left(event: ChatMemberUpdated, bot: Bot):
         logger.info(f'Бот удален с канала {chat.id} {chat.title} пользователем {owner.username} {owner.id}')
     except Exception as err:
         logger.error(err)
-        err_log.error(err, exc_info=True)
         raise err
 
 
@@ -88,7 +85,6 @@ async def as_admin(event: ChatMemberUpdated, bot: Bot):
 
     except Exception as err:
         logger.error(err)
-        err_log.error(err, exc_info=True)
         raise err
 
 

@@ -167,3 +167,7 @@ cython_debug/
 !**/migrations/__init__.py
 /backend_deposit/media
 ftp/screenshots/*.*
+
+# Видео врачей (отправка по video_id из doctors_data)
+data/video/*
+!data/video/.gitkeep

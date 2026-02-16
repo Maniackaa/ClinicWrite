@@ -24,7 +24,15 @@ from keyboards.keyboards import (
     get_cancel_kb,
     get_phone_kb
 )
-from data.doctors_data import DOCTORS, PROFESSION_NAMES, DOCTOR_IDS, DOCTOR_IDS_REVERSE, PROFESSION_KEY_MAP
+from data.doctors_data import (
+    DOCTORS,
+    PROFESSION_NAMES,
+    DOCTOR_IDS,
+    DOCTOR_IDS_REVERSE,
+    PROFESSION_KEY_MAP,
+    get_photo_id,
+    save_photo_id,
+)
 
 logger = structlog.get_logger(__name__)
 router = Router()
@@ -261,6 +269,34 @@ async def get_price_file_id(message: Message, bot: Bot):
     except Exception as e:
         logger.error(f'Ошибка в обработчике get_price_file_id: {e}', exc_info=True)
         await message.answer(f"❌ Произошла ошибка: {str(e)}")
+
+
+@router.message(Command("get_video_id"))
+async def cmd_get_video_id(message: Message):
+    """Команда для админа: подсказка как получить file_id видео."""
+    if str(message.from_user.id) not in conf.tg_bot.admin_ids:
+        await message.answer("❌ У вас нет прав для выполнения этой команды.")
+        return
+    await message.answer(
+        "📹 Отправьте видео следующим сообщением — в ответ пришлю <b>file_id</b>.\n\n"
+        "Этот ID впишите в <code>data/doctors_data.py</code> в поле <code>video_id</code> у нужного врача. "
+        "Тогда бот будет отправлять видео по ID без загрузки файла.",
+        parse_mode=ParseMode.HTML
+    )
+
+
+@router.message(F.video)
+async def admin_reply_video_id(message: Message):
+    """Если админ отправил видео — отвечаем ему file_id для вставки в doctors_data."""
+    if str(message.from_user.id) not in conf.tg_bot.admin_ids:
+        return
+    file_id = message.video.file_id
+    logger.info(f"Админ {message.from_user.id} запросил file_id видео: {file_id[:40]}...")
+    await message.answer(
+        f"📋 <b>file_id видео:</b>\n<code>{file_id}</code>\n\n"
+        f"Впишите в <code>data/doctors_data.py</code> в поле <code>video_id</code> для нужного врача.",
+        parse_mode=ParseMode.HTML
+    )
 
 
 # Обработчик кнопки "Скачать прайс"
@@ -510,23 +546,54 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
         text += f"Специальность: {doctor.profession}\n\n"
         text += f"{doctor.description}"
         
-        # Отправляем фото врача, если оно есть
-        if doctor.photo_filename:
-            photo_path = BASE_DIR / 'data' / 'photo' / doctor.photo_filename
-            if photo_path.exists():
-                photo = FSInputFile(photo_path)
-                await bot.send_photo(
+        # Видео отправляем только по video_id (файл с диска не отправляем)
+        video_id = getattr(doctor, 'video_id', None)
+        has_video = bool(video_id)
+        has_photo = doctor.photo_filename and (BASE_DIR / 'data' / 'photo' / doctor.photo_filename).exists()
+        
+        if has_video or has_photo:
+            await callback.message.delete()
+            if has_video:
+                await bot.send_video(
                     chat_id=callback.from_user.id,
-                    photo=photo,
-                    caption=text,
-                    reply_markup=get_doctor_info_kb(doctor.name, profession),
+                    video=video_id
+                )
+                logger.info(f'Видео отправлено для врача {doctor.name}')
+            # 2) Затем фото с текстом и кнопкой «Записаться» или только текст с кнопкой
+            kb = get_doctor_info_kb(doctor.name, profession)
+            if has_photo:
+                photo_id = get_photo_id(doctor.name)
+                if photo_id:
+                    sent = await bot.send_photo(
+                        chat_id=callback.from_user.id,
+                        photo=photo_id,
+                        caption=text,
+                        reply_markup=kb,
+                        parse_mode=ParseMode.HTML
+                    )
+                else:
+                    photo = FSInputFile(BASE_DIR / 'data' / 'photo' / doctor.photo_filename)
+                    sent = await bot.send_photo(
+                        chat_id=callback.from_user.id,
+                        photo=photo,
+                        caption=text,
+                        reply_markup=kb,
+                        parse_mode=ParseMode.HTML
+                    )
+                    if sent.photo:
+                        save_photo_id(doctor.name, sent.photo[-1].file_id)
+                        logger.info(f'Соранён photo_id для врача {doctor.name}')
+            else:
+                await bot.send_message(
+                    chat_id=callback.from_user.id,
+                    text=text,
+                    reply_markup=kb,
                     parse_mode=ParseMode.HTML
                 )
-                await callback.message.delete()
-                await callback.answer()
-                return
+            await callback.answer()
+            return
         
-        # Если фото нет, отправляем только текст
+        # Нет ни видео, ни фото — только текст
         await callback.message.edit_text(
             text,
             reply_markup=get_doctor_info_kb(doctor.name, profession),

@@ -1,5 +1,6 @@
 import asyncio
 import datetime
+from sys import exc_info
 
 import structlog
 from aiogram import Bot, Dispatcher
@@ -44,7 +45,7 @@ async def main():
                 conf.tg_bot.admin_ids[0], f'Бот запущен.')
         await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
     except:
-        logger.critical(f'Не могу отравить сообщение {conf.tg_bot.admin_ids[0]}')
+        logger.critical(f'Не могу отравить сообщение', exc_info=True)
 
     allowed_updates = [
         "message",  # Новое сообщение

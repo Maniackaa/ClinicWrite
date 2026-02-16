@@ -1,0 +1,391 @@
+[2m2026-01-28 09:02:21[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:02:21[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:02:22[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2026-01-28 09:02:22[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:02:22[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:02:22[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:02:22[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:02:40[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2026-01-28 09:03:33[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:03:33[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:03:33[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=24[0m
+[2m2026-01-28 09:03:33[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:03:33[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:03:33[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:03:33[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:03:36[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=44[0m
+[2m2026-01-28 09:03:50[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=108[0m
+[2m2026-01-28 09:06:55[0m [[32m[1mdebug    [0m] [1mMY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83[0m
+[2m2026-01-28 09:06:55[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1001960686782 gr1 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87[0m
+[2m2026-01-28 09:06:55[0m [[32m[1mdebug    [0m] [1mecho None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=281[0m
+[2m2026-01-28 09:07:33[0m [[32m[1mdebug    [0m] [1mMY event MEMBER                [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=55[0m
+[2m2026-01-28 09:07:33[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1003638877720 Заявки через бот как MEMBER  пользователем AlexeyVolosnikov 164028223 [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=59[0m
+[2m2026-01-28 09:07:44[0m [[32m[1mdebug    [0m] [1mMY event LEFT                  [handlers.action_handlers] filename=action_handlers.py func_name=left lineno=69[0m
+[2m2026-01-28 09:07:44[0m [[32m[1mdebug    [0m] [1mchat=Chat(id=-1003638877720, type='supergroup', title='Заявки через бот', username=None, first_name=None, last_name=None, is_forum=None, accent_color_id=None, active_usernames=None, available_reactions=None, background_custom_emoji_id=None, bio=None, birthdate=None, business_intro=None, business_location=None, business_opening_hours=None, can_set_sticker_set=None, custom_emoji_sticker_set_name=None, description=None, emoji_status_custom_emoji_id=None, emoji_status_expiration_date=None, has_aggressive_anti_spam_enabled=None, has_hidden_members=None, has_private_forwards=None, has_protected_content=None, has_restricted_voice_and_video_messages=None, has_visible_history=None, invite_link=None, join_by_request=None, join_to_send_messages=None, linked_chat_id=None, location=None, message_auto_delete_time=None, permissions=None, personal_chat=None, photo=None, pinned_message=None, profile_accent_color_id=None, profile_background_custom_emoji_id=None, slow_mode_delay=None, sticker_set_name=None, unrestrict_boost_count=None) from_user=User(id=164028223, is_bot=False, first_name='Алексей', last_name='Волосников', username='AlexeyVolosnikov', language_code='ru', is_premium=True, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None, can_connect_to_business=None, has_main_web_app=None) date=datetime.datetime(2026, 1, 28, 6, 7, 44, tzinfo=TzInfo(UTC)) old_chat_member=ChatMemberMember(status='member', user=User(id=8459754265, is_bot=True, first_name='Бот клиники ROYAL Clinic', last_name=None, username='ROYAL_Clinic_bot', language_code=None, is_premium=None, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None, can_connect_to_business=None, has_main_web_app=None), until_date=None) new_chat_member=ChatMemberLeft(status='left', user=User(id=8459754265, is_bot=True, first_name='Бот клиники ROYAL Clinic', last_name=None, username='ROYAL_Clinic_bot', language_code=None, is_premium=None, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None, can_connect_to_business=None, has_main_web_app=None)) invite_link=None via_join_request=None via_chat_folder_invite_link=None [handlers.action_handlers] filename=action_handlers.py func_name=left lineno=71[0m
+[2m2026-01-28 09:07:44[0m [[32m[1minfo     [0m] [1mБот удален с канала -1003638877720 Заявки через бот пользователем AlexeyVolosnikov 164028223 [handlers.action_handlers] filename=action_handlers.py func_name=left lineno=74[0m
+[2m2026-01-28 09:07:44[0m [[32m[1mdebug    [0m] [1mecho None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=281[0m
+[2m2026-01-28 09:08:33[0m [[32m[1mdebug    [0m] [1mMY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83[0m
+[2m2026-01-28 09:08:33[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1003638877720 Заявки через бот как ADMINISTRATOR пользователем AlexeyVolosnikov 164028223 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87[0m
+[2m2026-01-28 09:08:33[0m [[32m[1mdebug    [0m] [1mecho None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=281[0m
+[2m2026-01-28 09:14:21[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=70[0m
+[2m2026-01-28 09:14:26[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:14:26[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:14:26[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:14:26[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:14:26[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:14:26[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:14:26[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:14:26[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:14:30[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:14:32[0m [[31m[1merror    [0m] [1mФайл прайса не найден: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\Royal Clinic Прайс-лист.pdf [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=177[0m
+[2m2026-01-28 09:15:07[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:15:09[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:15:09[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:15:09[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:15:09[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:15:09[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:15:09[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:15:09[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:15:10[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:15:12[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:15:41[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:15:55[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:15:55[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:15:55[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:15:55[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:15:55[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:15:55[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:15:55[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:15:55[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:15:58[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:16:00[0m [[32m[1minfo     [0m] [1mНайден файл прайса: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\price.pdf [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=181[0m
+[2m2026-01-28 09:16:54[0m [[31m[1merror    [0m] [1mTelegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=200
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 190, in download_price
+    price_file = FSInputFile(price_file_path)
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid[0m
+[2m2026-01-28 09:17:01[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:17:03[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:17:03[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:17:03[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:17:03[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:17:03[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:17:03[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:17:03[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:17:03[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:17:05[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:17:07[0m [[32m[1minfo     [0m] [1mНайден файл прайса по имени: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\price.pdf [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=177[0m
+[2m2026-01-28 09:17:07[0m [[32m[1minfo     [0m] [1mОтправка файла прайса пользователю 585896156: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\price.pdf [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=189[0m
+[2m2026-01-28 09:17:52[0m [[32m[1minfo     [0m] [1mФайл прайса успешно отправлен. Message ID: 27 [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=198[0m
+[2m2026-01-28 09:18:15[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:19:06[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:19:06[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:19:06[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:19:06[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:19:06[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:19:06[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:19:06[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:19:06[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:19:19[0m [[32m[1minfo     [0m] [1mОтправка файла прайса для получения file_id: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\price.pdf [handlers.user_handlers] filename=user_handlers.py func_name=get_price_file_id lineno=190[0m
+[2m2026-01-28 09:20:04[0m [[32m[1minfo     [0m] [1m================================================================================ [handlers.user_handlers] filename=user_handlers.py func_name=get_price_file_id lineno=203[0m
+[2m2026-01-28 09:20:04[0m [[32m[1minfo     [0m] [1mFILE_ID ПРАЙСА: BQACAgIAAxkDAAMfaXmqlDgUfIekHSI5qjp6VkFE-nsAAiKXAALjx8lLxlSfa51o4i44BA [handlers.user_handlers] filename=user_handlers.py func_name=get_price_file_id lineno=204[0m
+[2m2026-01-28 09:20:04[0m [[32m[1minfo     [0m] [1m================================================================================ [handlers.user_handlers] filename=user_handlers.py func_name=get_price_file_id lineno=205[0m
+[2m2026-01-28 09:20:04[0m [[32m[1minfo     [0m] [1mДобавьте в .env файл: PRICE_FILE_ID=BQACAgIAAxkDAAMfaXmqlDgUfIekHSI5qjp6VkFE-nsAAiKXAALjx8lLxlSfa51o4i44BA [handlers.user_handlers] filename=user_handlers.py func_name=get_price_file_id lineno=206[0m
+[2m2026-01-28 09:20:04[0m [[32m[1minfo     [0m] [1m================================================================================ [handlers.user_handlers] filename=user_handlers.py func_name=get_price_file_id lineno=207[0m
+[2m2026-01-28 09:20:36[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:20:38[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:20:38[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:20:38[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:20:38[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:20:38[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:20:38[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:20:38[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:20:38[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:20:40[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:20:42[0m [[32m[1minfo     [0m] [1mОтправка прайса по file_id пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=239[0m
+[2m2026-01-28 09:20:43[0m [[32m[1minfo     [0m] [1mПрайс успешно отправлен по file_id [handlers.user_handlers] filename=user_handlers.py func_name=download_price lineno=245[0m
+[2m2026-01-28 09:21:03[0m [[31m[1merror    [0m] [1mTelegram server says - Bad Request: BUTTON_DATA_INVALID [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=371
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 364, in select_profession
+    await callback.message.edit_text(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: BUTTON_DATA_INVALID[0m
+[2m2026-01-28 09:21:26[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:21:49[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:21:49[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:21:50[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:21:50[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:21:50[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:21:50[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:21:50[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:21:50[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:21:51[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:22:01[0m [[31m[1merror    [0m] [1mВрач не найден по ID: doc_doc_fateev [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=470[0m
+[2m2026-01-28 09:22:27[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:22:34[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:22:34[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:22:35[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:22:35[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:22:35[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:22:35[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:22:35[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:22:35[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:22:38[0m [[31m[1merror    [0m] [1mTelegram server says - Bad Request: there is no text in the message to edit [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=454
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 447, in back_to_doctors
+    await callback.message.edit_text(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit[0m
+[2m2026-01-28 09:22:40[0m [[32m[1minfo     [0m] [1mПользователь 585896156 запустил бота [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=115[0m
+[2m2026-01-28 09:22:47[0m [[31m[1merror    [0m] [1mTelegram server says - Bad Request: there is no text in the message to edit [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=493
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 486, in start_appointment
+    await callback.message.edit_text(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit[0m
+[2m2026-01-28 09:24:09[0m [[31m[1merror    [0m] [1mTelegram server says - Bad Request: there is no text in the message to edit [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=493
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 486, in start_appointment
+    await callback.message.edit_text(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit[0m
+[2m2026-01-28 09:24:15[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:24:21[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:24:21[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:24:21[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:24:21[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:24:21[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:24:21[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:24:21[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:24:21[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:24:23[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=107[0m
+[2m2026-01-28 09:24:23[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=116[0m
+[2m2026-01-28 09:24:25[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=360[0m
+[2m2026-01-28 09:24:25[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=369[0m
+[2m2026-01-28 09:24:25[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=уролог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=385[0m
+[2m2026-01-28 09:24:25[0m [[32m[1minfo     [0m] [1mСписок врачей профессии уролог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=395[0m
+[2m2026-01-28 09:24:26[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_fateev_уролог [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=409[0m
+[2m2026-01-28 09:24:26[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Фатеев Дмитрий Михайлович, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=436[0m
+[2m2026-01-28 09:24:28[0m [[32m[1minfo     [0m] [1mstart_appointment: пользователь 585896156, callback_data=appoint_fateev [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=506[0m
+[2m2026-01-28 09:24:28[0m [[32m[1minfo     [0m] [1mНачало записи к врачу: Фатеев Дмитрий Михайлович, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=524[0m
+[2m2026-01-28 09:24:28[0m [[32m[1minfo     [0m] [1mЗапрос имени отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=557[0m
+[2m2026-01-28 09:24:35[0m [[32m[1minfo     [0m] [1mprocess_name: пользователь 585896156, имя=Алексей [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=575[0m
+[2m2026-01-28 09:24:35[0m [[32m[1minfo     [0m] [1mИмя принято: Алексей, запрос телефона отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=597[0m
+[2m2026-01-28 09:24:42[0m [[32m[1minfo     [0m] [1mprocess_phone: пользователь 585896156, телефон=+79235554 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=615[0m
+[2m2026-01-28 09:24:42[0m [[33m[1mwarning  [0m] [1mНекорректный телефон от пользователя 585896156: +79235554 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=621[0m
+[2m2026-01-28 09:24:46[0m [[32m[1minfo     [0m] [1mprocess_phone: пользователь 585896156, телефон=+7(905)777-70-95 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=615[0m
+[2m2026-01-28 09:24:46[0m [[32m[1minfo     [0m] [1mДанные заявки: врач=Фатеев Дмитрий Михайлович, клиент=Алексей, телефон=+7(905)777-70-95 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=632[0m
+[2m2026-01-28 09:24:46[0m [[31m[1merror    [0m] [1mОшибка отправки заявки в канал: Telegram server says - Bad Request: chat not found [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=669
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 645, in process_phone
+    await bot.send_message(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-01-28 09:24:46[0m [[32m[1minfo     [0m] [1mСостояние FSM очищено для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=677[0m
+[2m2026-01-28 09:25:38[0m [[32m[1mdebug    [0m] [1mMY event MEMBER                [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=55[0m
+[2m2026-01-28 09:25:38[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1001960686782 gr1 как MEMBER  пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_member lineno=59[0m
+[2m2026-01-28 09:25:41[0m [[32m[1mdebug    [0m] [1mMY event ADMINISTRATOR         [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=83[0m
+[2m2026-01-28 09:25:41[0m [[32m[1minfo     [0m] [1mБот добавлен в канал -1001960686782 gr1 как ADMINISTRATOR пользователем AlexxxNikSib 585896156 [handlers.action_handlers] filename=action_handlers.py func_name=as_admin lineno=87[0m
+[2m2026-01-28 09:25:51[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:25:52[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:25:52[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:25:53[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:25:53[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:25:53[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:25:53[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:25:53[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:25:53[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:26:05[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=107[0m
+[2m2026-01-28 09:26:05[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=116[0m
+[2m2026-01-28 09:26:06[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=360[0m
+[2m2026-01-28 09:26:07[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=369[0m
+[2m2026-01-28 09:26:07[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=УЗИ [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=385[0m
+[2m2026-01-28 09:26:07[0m [[32m[1minfo     [0m] [1mСписок врачей профессии УЗИ показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=395[0m
+[2m2026-01-28 09:26:08[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_smolina_УЗИ [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=409[0m
+[2m2026-01-28 09:26:08[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Смолина Наталия Алексеевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=436[0m
+[2m2026-01-28 09:26:08[0m [[32m[1minfo     [0m] [1mИнформация о враче Смолина Наталия Алексеевна отправлена пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=466[0m
+[2m2026-01-28 09:26:10[0m [[32m[1minfo     [0m] [1mstart_appointment: пользователь 585896156, callback_data=appoint_smolina [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=506[0m
+[2m2026-01-28 09:26:10[0m [[32m[1minfo     [0m] [1mНачало записи к врачу: Смолина Наталия Алексеевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=524[0m
+[2m2026-01-28 09:26:10[0m [[32m[1minfo     [0m] [1mЗапрос имени отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=557[0m
+[2m2026-01-28 09:26:13[0m [[32m[1minfo     [0m] [1mprocess_name: пользователь 585896156, имя=sfgvsd [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=575[0m
+[2m2026-01-28 09:26:13[0m [[32m[1minfo     [0m] [1mИмя принято: sfgvsd, запрос телефона отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=597[0m
+[2m2026-01-28 09:26:16[0m [[32m[1minfo     [0m] [1mprocess_phone: пользователь 585896156, телефон=+7(905)777-70-95 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=615[0m
+[2m2026-01-28 09:26:16[0m [[32m[1minfo     [0m] [1mДанные заявки: врач=Смолина Наталия Алексеевна, клиент=sfgvsd, телефон=+7(905)777-70-95 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=632[0m
+[2m2026-01-28 09:26:17[0m [[32m[1minfo     [0m] [1mЗаявка отправлена: врач=Смолина Наталия Алексеевна, клиент=sfgvsd, телефон=+7(905)777-70-95 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=666[0m
+[2m2026-01-28 09:26:17[0m [[32m[1minfo     [0m] [1mСостояние FSM очищено для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=677[0m
+[2m2026-01-28 09:27:09[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:31:54[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:31:54[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:32:03[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:32:03[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:32:29[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:32:29[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:32:29[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:32:29[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:32:29[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:32:29[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:32:29[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:32:30[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:32:33[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=108[0m
+[2m2026-01-28 09:32:33[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=117[0m
+[2m2026-01-28 09:32:34[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=361[0m
+[2m2026-01-28 09:32:34[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=370[0m
+[2m2026-01-28 09:32:34[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=уролог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=386[0m
+[2m2026-01-28 09:32:35[0m [[32m[1minfo     [0m] [1mСписок врачей профессии уролог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=396[0m
+[2m2026-01-28 09:32:35[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_artemenko_s_уролог [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=410[0m
+[2m2026-01-28 09:32:35[0m [[31m[1merror    [0m] [1mВрач не найден по ID: artemenko [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=426[0m
+[2m2026-01-28 09:32:46[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:32:57[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:32:57[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:32:58[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:32:58[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:32:58[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:32:58[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:32:58[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:32:58[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:33:00[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=108[0m
+[2m2026-01-28 09:33:00[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=117[0m
+[2m2026-01-28 09:33:02[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=361[0m
+[2m2026-01-28 09:33:02[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=370[0m
+[2m2026-01-28 09:33:03[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=УЗИ [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=386[0m
+[2m2026-01-28 09:33:03[0m [[32m[1minfo     [0m] [1mСписок врачей профессии УЗИ показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=396[0m
+[2m2026-01-28 09:33:03[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_bazel_УЗИ [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=410[0m
+[2m2026-01-28 09:33:03[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=bazel, profession=УЗИ [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=426[0m
+[2m2026-01-28 09:33:03[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Базель Мария Владимировна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=443[0m
+[2m2026-01-28 09:33:07[0m [[32m[1minfo     [0m] [1mstart_appointment: пользователь 585896156, callback_data=appoint_bazel [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=513[0m
+[2m2026-01-28 09:33:07[0m [[32m[1minfo     [0m] [1mНачало записи к врачу: Базель Мария Владимировна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=531[0m
+[2m2026-01-28 09:33:07[0m [[32m[1minfo     [0m] [1mЗапрос имени отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=564[0m
+[2m2026-01-28 09:33:11[0m [[32m[1minfo     [0m] [1mprocess_name: пользователь 585896156, имя=Алекс [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=582[0m
+[2m2026-01-28 09:33:11[0m [[32m[1minfo     [0m] [1mИмя принято: Алекс, запрос телефона отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=604[0m
+[2m2026-01-28 09:33:13[0m [[32m[1minfo     [0m] [1mprocess_contact: пользователь 585896156, контакт получен [handlers.user_handlers] filename=user_handlers.py func_name=process_contact lineno=622[0m
+[2m2026-01-28 09:33:13[0m [[32m[1minfo     [0m] [1mНомер телефона из контакта: +79236396010 [handlers.user_handlers] filename=user_handlers.py func_name=process_contact lineno=634[0m
+[2m2026-01-28 09:33:13[0m [[32m[1minfo     [0m] [1mДанные заявки: врач=Базель Мария Владимировна, клиент=Алекс, телефон=+79236396010 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone_internal lineno=697[0m
+[2m2026-01-28 09:33:14[0m [[32m[1minfo     [0m] [1mЗаявка отправлена: врач=Базель Мария Владимировна, клиент=Алекс, телефон=+79236396010 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone_internal lineno=736[0m
+[2m2026-01-28 09:33:14[0m [[32m[1minfo     [0m] [1mСостояние FSM очищено для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone_internal lineno=751[0m
+[2m2026-01-28 09:33:20[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-01-28 09:35:03[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-01-28 09:35:03[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-01-28 09:35:03[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-01-28 09:35:03[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-01-28 09:35:03[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-01-28 09:35:03[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-01-28 09:35:03[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-01-28 09:35:03[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-01-28 09:35:12[0m [[32m[1minfo     [0m] [1mmenu_contacts: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=330[0m
+[2m2026-01-28 09:35:12[0m [[32m[1minfo     [0m] [1mКонтакты показаны пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=347[0m
+[2m2026-01-28 09:35:13[0m [[32m[1minfo     [0m] [1mback_to_menu: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_menu lineno=127[0m
+[2m2026-01-28 09:35:13[0m [[32m[1minfo     [0m] [1mГлавное меню показано пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_menu lineno=137[0m
+[2m2026-01-28 09:35:14[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=361[0m
+[2m2026-01-28 09:35:14[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=370[0m
+[2m2026-01-28 09:35:16[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=эндокринолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=386[0m
+[2m2026-01-28 09:35:16[0m [[32m[1minfo     [0m] [1mСписок врачей профессии эндокринолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=396[0m
+[2m2026-01-28 09:35:19[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_lobanova_эндокринол [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=410[0m
+[2m2026-01-28 09:35:19[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=lobanova, profession=эндокринол [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=426[0m
+[2m2026-01-28 09:35:19[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Лобанова Кристина Геннадьевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=443[0m
+[2m2026-01-28 09:35:20[0m [[32m[1minfo     [0m] [1mИнформация о враче Лобанова Кристина Геннадьевна отправлена пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=473[0m
+[2m2026-01-28 09:35:22[0m [[32m[1minfo     [0m] [1mstart_appointment: пользователь 585896156, callback_data=appoint_lobanova [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=513[0m
+[2m2026-01-28 09:35:22[0m [[32m[1minfo     [0m] [1mНачало записи к врачу: Лобанова Кристина Геннадьевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=531[0m
+[2m2026-01-28 09:35:22[0m [[32m[1minfo     [0m] [1mЗапрос имени отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=564[0m
+[2m2026-01-28 09:35:26[0m [[32m[1minfo     [0m] [1mcancel_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cancel_appointment lineno=798[0m
+[2m2026-01-28 09:35:26[0m [[32m[1minfo     [0m] [1mЗапись отменена пользователем 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cancel_appointment lineno=820[0m
+[2m2026-01-28 09:35:27[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=361[0m
+[2m2026-01-28 09:35:28[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=370[0m
+[2m2026-01-28 09:35:29[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=гинеколог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=386[0m
+[2m2026-01-28 09:35:29[0m [[32m[1minfo     [0m] [1mСписок врачей профессии гинеколог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=396[0m
+[2m2026-01-28 09:35:30[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_artemenko_y_гинеколог [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=410[0m
+[2m2026-01-28 09:35:30[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=artemenko_y, profession=гинеколог [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=426[0m
+[2m2026-01-28 09:35:30[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Артеменко Юлия Сергеевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=443[0m
+[2m2026-01-28 09:35:33[0m [[32m[1minfo     [0m] [1mstart_appointment: пользователь 585896156, callback_data=appoint_artemenko_y [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=513[0m
+[2m2026-01-28 09:35:33[0m [[32m[1minfo     [0m] [1mНачало записи к врачу: Артеменко Юлия Сергеевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=531[0m
+[2m2026-01-28 09:35:33[0m [[32m[1minfo     [0m] [1mЗапрос имени отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=start_appointment lineno=564[0m
+[2m2026-01-28 09:35:39[0m [[32m[1mdebug    [0m] [1mUSER MEMBER                    [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=36[0m
+[2m2026-01-28 09:35:39[0m [[32m[1mdebug    [0m] [1m-1003638877720 Заявки через бот [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=41[0m
+[2m2026-01-28 09:35:39[0m [[32m[1mdebug    [0m] [1mmember: id=585896156 is_bot=False first_name='Алексей' last_name=None username='AlexxxNikSib' language_code='ru' is_premium=True added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None can_connect_to_business=None has_main_web_app=None [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=43[0m
+[2m2026-01-28 09:35:39[0m [[32m[1minfo     [0m] [1mЮзер AlexxxNikSib 585896156 присоединился к каналу -1003638877720 Заявки через бот  [handlers.action_handlers] filename=action_handlers.py func_name=user_join lineno=44[0m
+[2m2026-01-28 09:35:39[0m [[32m[1mdebug    [0m] [1mecho None                      [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=901[0m
+[2m2026-01-28 09:35:47[0m [[32m[1minfo     [0m] [1mprocess_name: пользователь 585896156, имя=Тест [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=582[0m
+[2m2026-01-28 09:35:47[0m [[32m[1minfo     [0m] [1mИмя принято: Тест, запрос телефона отправлен пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_name lineno=604[0m
+[2m2026-01-28 09:35:54[0m [[32m[1minfo     [0m] [1mprocess_phone: пользователь 585896156, телефон=+792366688877 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone lineno=656[0m
+[2m2026-01-28 09:35:54[0m [[32m[1minfo     [0m] [1mДанные заявки: врач=Артеменко Юлия Сергеевна, клиент=Тест, телефон=+792366688877 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone_internal lineno=697[0m
+[2m2026-01-28 09:35:55[0m [[32m[1minfo     [0m] [1mЗаявка отправлена: врач=Артеменко Юлия Сергеевна, клиент=Тест, телефон=+792366688877 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone_internal lineno=736[0m
+[2m2026-01-28 09:35:55[0m [[32m[1minfo     [0m] [1mСостояние FSM очищено для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=process_phone_internal lineno=751[0m
+[2m2026-01-28 09:37:55[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
