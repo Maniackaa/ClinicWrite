@@ -171,3 +171,6 @@ ftp/screenshots/*.*
 # Видео врачей (отправка по video_id из doctors_data)
 data/video/*
 !data/video/.gitkeep
+
+# Кэш photo file_id (генерируется при первой отправке фото врача)
+data/photo_ids.json
