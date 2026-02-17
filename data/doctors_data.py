@@ -222,7 +222,7 @@ DOCTORS = {
         profession="УЗИ",
         photo_filename="smolina.jpeg",
         video_filename="smolina.mp4",
-        video_id=None,
+        video_id="BAACAgIAAxkBAAIEVmmU28CJy9SSk6boiEfR5WzZH614AAKojwAC2cupSHmehrT3GHacOgQ",
         description="""Врач ультразвуковой диагностики высшей квалификационной категории, член РАСУДМ и ISOUG.
 
 Имеет опыт работы в условиях хирургического, урологического, травматологического, гинекологического, неврологического, кардиологического, терапевтического стационаров.

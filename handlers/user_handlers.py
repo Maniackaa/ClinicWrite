@@ -8,7 +8,16 @@ from aiogram import Router, Bot, F
 from aiogram.enums import ParseMode
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
-from aiogram.types import Message, CallbackQuery, FSInputFile, InputFile, Contact, ReplyKeyboardRemove
+from aiogram.types import (
+    Message,
+    CallbackQuery,
+    FSInputFile,
+    InputFile,
+    InputMediaPhoto,
+    InputMediaVideo,
+    Contact,
+    ReplyKeyboardRemove,
+)
 from aiogram.exceptions import TelegramBadRequest
 
 from config_data.conf import conf, BASE_DIR
@@ -557,24 +566,45 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
         
         if has_video or has_photo:
             await callback.message.delete()
-            if has_video:
+            kb = get_doctor_info_kb(doctor.name, profession)
+
+            if has_video and has_photo:
+                # Одна медиагруппа: видео + фото с подписью
+                photo_id = get_photo_id(doctor.name)
+                photo_media = photo_id if photo_id else FSInputFile(BASE_DIR / 'data' / 'photo' / doctor.photo_filename)
+                media_list = [
+                    InputMediaPhoto(media=photo_media, caption=caption, parse_mode=ParseMode.HTML),
+                    InputMediaVideo(media=video_id),
+                ]
                 try:
-                    await bot.send_video(
+                    sent_messages = await bot.send_media_group(
                         chat_id=callback.from_user.id,
-                        video=video_id
+                        media=media_list
                     )
-                    logger.info(f'Видео отправлено для врача {doctor.name}')
+                    if not photo_id and sent_messages and sent_messages[0].photo:
+                        save_photo_id(doctor.name, sent_messages[0].photo[-1].file_id)
+                        logger.info(f'Соранён photo_id для врача {doctor.name}')
+                    logger.info(f'Медиагруппа (видео+фото) отправлена для врача {doctor.name}')
                 except TelegramBadRequest as e:
                     if "wrong file identifier" in str(e).lower() or "file identifier" in str(e).lower():
-                        logger.warning(f'Неверный video_id для врача {doctor.name}, видео пропущено: {e}')
+                        logger.warning(f'Неверный video_id для врача {doctor.name}, отправляю только фото: {e}')
+                        has_video = False
                     else:
                         raise
-            # 2) Затем фото с текстом и кнопкой «Записаться» или только текст с кнопкой
-            kb = get_doctor_info_kb(doctor.name, profession)
-            if has_photo:
+                if has_video:
+                    await bot.send_message(
+                        chat_id=callback.from_user.id,
+                        text="👇 Записаться к врачу:",
+                        reply_markup=kb
+                    )
+                    await callback.answer()
+                    return
+
+            if has_photo and not has_video:
+                # Только фото (с подписью и кнопкой)
                 photo_id = get_photo_id(doctor.name)
                 if photo_id:
-                    sent = await bot.send_photo(
+                    await bot.send_photo(
                         chat_id=callback.from_user.id,
                         photo=photo_id,
                         caption=caption,
@@ -593,6 +623,24 @@ async def select_doctor(callback: CallbackQuery, bot: Bot):
                     if sent.photo:
                         save_photo_id(doctor.name, sent.photo[-1].file_id)
                         logger.info(f'Соранён photo_id для врача {doctor.name}')
+            elif has_video:
+                # Только видео (после ошибки медиагруппы или изначально только видео)
+                try:
+                    await bot.send_video(
+                        chat_id=callback.from_user.id,
+                        video=video_id
+                    )
+                    logger.info(f'Видео отправлено для врача {doctor.name}')
+                except TelegramBadRequest as e:
+                    if "wrong file identifier" in str(e).lower() or "file identifier" in str(e).lower():
+                        logger.warning(f'Неверный video_id для врача {doctor.name}, видео пропущено: {e}')
+                    else:
+                        raise
+                await bot.send_message(
+                    chat_id=callback.from_user.id,
+                    text="👇 Записаться к врачу:",
+                    reply_markup=kb
+                )
             else:
                 await bot.send_message(
                     chat_id=callback.from_user.id,

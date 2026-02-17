@@ -1,0 +1,354 @@
+[2m2026-02-16 18:41:39[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 18:41:39[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 18:41:39[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-02-16 18:41:39[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 18:41:39[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 18:41:39[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 18:41:39[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 18:41:41[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-02-16 18:41:46[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-02-16 18:42:30[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 18:42:30[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 18:42:30[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-02-16 18:42:30[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 18:42:30[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 18:42:30[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 18:42:30[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 18:42:31[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-02-16 18:42:36[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=109[0m
+[2m2026-02-16 18:42:37[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=118[0m
+[2m2026-02-16 18:42:39[0m [[32m[1minfo     [0m] [1mmenu_price: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_price lineno=175[0m
+[2m2026-02-16 18:42:39[0m [[32m[1minfo     [0m] [1mМеню прайса показано пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_price lineno=183[0m
+[2m2026-02-16 18:42:41[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=109[0m
+[2m2026-02-16 18:42:41[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=118[0m
+[2m2026-02-16 18:42:43[0m [[32m[1minfo     [0m] [1mmenu_contacts: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=354[0m
+[2m2026-02-16 18:42:43[0m [[32m[1minfo     [0m] [1mПроверка файла контактов: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\photo\contact.jpeg, существует: True [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=369[0m
+[2m2026-02-16 18:42:43[0m [[32m[1minfo     [0m] [1mОтправка фото контактов: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\photo\contact.jpeg [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=375[0m
+[2m2026-02-16 18:42:45[0m [[32m[1minfo     [0m] [1mКонтакты с фото показаны пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=390[0m
+[2m2026-02-16 18:42:47[0m [[32m[1minfo     [0m] [1mback_to_menu: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_menu lineno=128[0m
+[2m2026-02-16 18:42:48[0m [[32m[1minfo     [0m] [1mГлавное меню показано пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_menu lineno=161[0m
+[2m2026-02-16 18:42:48[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=425[0m
+[2m2026-02-16 18:42:49[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=434[0m
+[2m2026-02-16 18:42:50[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=450[0m
+[2m2026-02-16 18:42:51[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=460[0m
+[2m2026-02-16 18:42:52[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_shibanova_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=474[0m
+[2m2026-02-16 18:42:52[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=shibanova, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=490[0m
+[2m2026-02-16 18:42:52[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Шибанова Екатерина Игоревна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=507[0m
+[2m2026-02-16 18:43:57[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в личке 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=954[0m
+[2m2026-02-16 18:43:57[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=958[0m
+[2m2026-02-16 18:49:03[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-02-16 18:49:05[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 18:49:05[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 18:49:05[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-02-16 18:49:05[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 18:49:05[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 18:49:05[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 18:49:05[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 18:49:06[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-02-16 18:49:12[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в личке 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=957[0m
+[2m2026-02-16 18:49:12[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=961[0m
+[2m2026-02-16 18:49:14[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=109[0m
+[2m2026-02-16 18:49:15[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=118[0m
+[2m2026-02-16 18:49:18[0m [[32m[1minfo     [0m] [1mmenu_contacts: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=354[0m
+[2m2026-02-16 18:49:18[0m [[32m[1minfo     [0m] [1mПроверка файла контактов: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\photo\contact.jpeg, существует: True [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=369[0m
+[2m2026-02-16 18:49:18[0m [[32m[1minfo     [0m] [1mОтправка фото контактов: H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\data\photo\contact.jpeg [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=375[0m
+[2m2026-02-16 18:49:20[0m [[32m[1minfo     [0m] [1mКонтакты с фото показаны пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_contacts lineno=390[0m
+[2m2026-02-16 18:49:26[0m [[32m[1minfo     [0m] [1mback_to_menu: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_menu lineno=128[0m
+[2m2026-02-16 18:49:27[0m [[32m[1minfo     [0m] [1mГлавное меню показано пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_menu lineno=161[0m
+[2m2026-02-16 18:49:28[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=425[0m
+[2m2026-02-16 18:49:28[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=434[0m
+[2m2026-02-16 18:49:30[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=450[0m
+[2m2026-02-16 18:49:30[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=460[0m
+[2m2026-02-16 18:49:33[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_shibanova_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=474[0m
+[2m2026-02-16 18:49:33[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=shibanova, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=490[0m
+[2m2026-02-16 18:49:33[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Шибанова Екатерина Игоревна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=507[0m
+[2m2026-02-16 18:50:34[0m [[31m[1merror    [0m] [1mОшибка в select_doctor: HTTP Client says - Request timeout error [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=560
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiohttp\streams.py", line 672, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiohttp\client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiohttp\client.py", line 730, in _request
+    await resp.start(conn)
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 1054, in start
+    with self._timer:
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiohttp\helpers.py", line 685, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\handlers\user_handlers.py", line 525, in select_doctor
+    await bot.send_video(
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 3233, in send_video
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 182, in make_request
+    raise TelegramNetworkError(method=method, message="Request timeout error")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - Request timeout error[0m
+[2m2026-02-16 18:52:46[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=109[0m
+[2m2026-02-16 18:52:46[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=118[0m
+[2m2026-02-16 18:52:47[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=425[0m
+[2m2026-02-16 18:52:48[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=434[0m
+[2m2026-02-16 18:52:50[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=450[0m
+[2m2026-02-16 18:52:51[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=460[0m
+[2m2026-02-16 18:52:59[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-02-16 18:55:09[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 18:55:09[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 18:55:10[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=25[0m
+[2m2026-02-16 18:55:10[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 18:55:10[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 18:55:10[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 18:55:10[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 18:55:10[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение 585896156 [__main__] filename=main.py func_name=main lineno=47[0m
+[2m2026-02-16 18:58:02[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=73[0m
+[2m2026-02-16 18:58:04[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 18:58:04[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 18:58:04[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=26[0m
+[2m2026-02-16 18:58:04[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 18:58:04[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 18:58:04[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 18:58:04[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 18:58:05[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение     [__main__] filename=main.py func_name=main lineno=48
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\main.py", line 46, in main
+    await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-02-16 19:30:40[0m [[32m[1minfo     [0m] [1mАдмин 585896156 запросил file_id видео: BAACAgIAAxkBAAI7JmmTRjHA3FG3reh5gVVCVGQa... [handlers.user_handlers] filename=user_handlers.py func_name=admin_reply_video_id lineno=287[0m
+[2m2026-02-16 19:37:12[0m [[32m[1minfo     [0m] [1mПрочитал сообщение в личке 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=995[0m
+[2m2026-02-16 19:37:12[0m [[32m[1minfo     [0m] [1m[]                             [handlers.user_handlers] filename=user_handlers.py func_name=echo lineno=999[0m
+[2m2026-02-16 19:38:19[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=74[0m
+[2m2026-02-16 19:38:21[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 19:38:21[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 19:38:21[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=26[0m
+[2m2026-02-16 19:38:21[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 19:38:21[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 19:38:21[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 19:38:21[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 19:38:22[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение     [__main__] filename=main.py func_name=main lineno=48
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\main.py", line 46, in main
+    await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-02-16 19:38:34[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=74[0m
+[2m2026-02-16 19:38:35[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 19:38:35[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 19:38:35[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=26[0m
+[2m2026-02-16 19:38:35[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 19:38:35[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 19:38:35[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 19:38:35[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 19:38:36[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение     [__main__] filename=main.py func_name=main lineno=48
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\main.py", line 46, in main
+    await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-02-16 19:38:43[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=108[0m
+[2m2026-02-16 19:38:44[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=117[0m
+[2m2026-02-16 19:38:45[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=452[0m
+[2m2026-02-16 19:38:45[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=461[0m
+[2m2026-02-16 19:38:47[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=477[0m
+[2m2026-02-16 19:38:48[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=487[0m
+[2m2026-02-16 19:38:48[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_shibanova_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=501[0m
+[2m2026-02-16 19:38:48[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=shibanova, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=517[0m
+[2m2026-02-16 19:38:48[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Шибанова Екатерина Игоревна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=534[0m
+[2m2026-02-16 19:38:49[0m [[32m[1minfo     [0m] [1mВидео отправлено для врача Шибанова Екатерина Игоревна [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=553[0m
+[2m2026-02-16 19:39:12[0m [[32m[1minfo     [0m] [1mback_to_doctors: пользователь 585896156, профессия=репродуктолог (из репродукто) [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=600[0m
+[2m2026-02-16 19:39:12[0m [[32m[1minfo     [0m] [1mВозврат к списку врачей профессии репродуктолог для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=633[0m
+[2m2026-02-16 19:39:15[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=452[0m
+[2m2026-02-16 19:39:15[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=461[0m
+[2m2026-02-16 19:39:20[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=УЗИ [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=477[0m
+[2m2026-02-16 19:39:21[0m [[32m[1minfo     [0m] [1mСписок врачей профессии УЗИ показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=487[0m
+[2m2026-02-16 19:39:22[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=452[0m
+[2m2026-02-16 19:39:23[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=461[0m
+[2m2026-02-16 19:39:33[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=74[0m
+[2m2026-02-16 19:39:41[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 19:39:41[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 19:39:41[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=26[0m
+[2m2026-02-16 19:39:41[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 19:39:41[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 19:39:41[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 19:39:41[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 19:39:42[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение     [__main__] filename=main.py func_name=main lineno=48
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\main.py", line 46, in main
+    await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-02-16 19:39:44[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=гинеколог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=477[0m
+[2m2026-02-16 19:39:44[0m [[32m[1minfo     [0m] [1mСписок врачей профессии гинеколог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=487[0m
+[2m2026-02-16 19:39:45[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_artemenko_y_гинеколог [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=501[0m
+[2m2026-02-16 19:39:45[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=artemenko_y, profession=гинеколог [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=517[0m
+[2m2026-02-16 19:39:45[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Артеменко Юлия Сергеевна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=534[0m
+[2m2026-02-16 19:39:59[0m [[32m[1minfo     [0m] [1mback_to_doctors: пользователь 585896156, профессия=гинеколог (из гинеколог) [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=600[0m
+[2m2026-02-16 19:40:00[0m [[32m[1minfo     [0m] [1mВозврат к списку врачей профессии гинеколог для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=633[0m
+[2m2026-02-16 19:40:43[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=452[0m
+[2m2026-02-16 19:40:43[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=461[0m
+[2m2026-02-16 19:40:47[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=477[0m
+[2m2026-02-16 19:40:47[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=487[0m
+[2m2026-02-16 19:40:48[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_pilipenko_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=501[0m
+[2m2026-02-16 19:40:48[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=pilipenko, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=517[0m
+[2m2026-02-16 19:40:48[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Пилипенко Александра Александровна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=534[0m
+[2m2026-02-16 19:40:52[0m [[32m[1minfo     [0m] [1mback_to_doctors: пользователь 585896156, профессия=репродуктолог (из репродукто) [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=600[0m
+[2m2026-02-16 19:40:53[0m [[32m[1minfo     [0m] [1mВозврат к списку врачей профессии репродуктолог для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=633[0m
+[2m2026-02-16 19:40:54[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_pilipenko_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=501[0m
+[2m2026-02-16 19:40:54[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=pilipenko, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=517[0m
+[2m2026-02-16 19:40:54[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Пилипенко Александра Александровна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=534[0m
+[2m2026-02-16 19:40:58[0m [[32m[1minfo     [0m] [1mback_to_doctors: пользователь 585896156, профессия=репродуктолог (из репродукто) [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=600[0m
+[2m2026-02-16 19:40:59[0m [[32m[1minfo     [0m] [1mВозврат к списку врачей профессии репродуктолог для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=633[0m
+[2m2026-02-16 19:42:28[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=74[0m
+[2m2026-02-16 19:42:30[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 19:42:30[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 19:42:30[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=26[0m
+[2m2026-02-16 19:42:30[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 19:42:30[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 19:42:30[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 19:42:30[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 19:42:31[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение     [__main__] filename=main.py func_name=main lineno=48
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\main.py", line 46, in main
+    await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-02-16 19:42:36[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=116[0m
+[2m2026-02-16 19:42:37[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=125[0m
+[2m2026-02-16 19:42:38[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=460[0m
+[2m2026-02-16 19:42:38[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=469[0m
+[2m2026-02-16 19:42:40[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=485[0m
+[2m2026-02-16 19:42:40[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=495[0m
+[2m2026-02-16 19:42:41[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_pilipenko_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=509[0m
+[2m2026-02-16 19:42:41[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=pilipenko, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=525[0m
+[2m2026-02-16 19:42:41[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Пилипенко Александра Александровна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=542[0m
+[2m2026-02-16 19:42:43[0m [[32m[1minfo     [0m] [1mСоранён photo_id для врача Пилипенко Александра Александровна [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=585[0m
+[2m2026-02-16 19:42:44[0m [[32m[1minfo     [0m] [1mback_to_doctors: пользователь 585896156, профессия=репродуктолог (из репродукто) [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=621[0m
+[2m2026-02-16 19:42:46[0m [[32m[1minfo     [0m] [1mВозврат к списку врачей профессии репродуктолог для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=654[0m
+[2m2026-02-16 19:42:47[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_pilipenko_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=509[0m
+[2m2026-02-16 19:42:47[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=pilipenko, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=525[0m
+[2m2026-02-16 19:42:47[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Пилипенко Александра Александровна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=542[0m
+[2m2026-02-16 19:42:49[0m [[32m[1minfo     [0m] [1mback_to_doctors: пользователь 585896156, профессия=репродуктолог (из репродукто) [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=621[0m
+[2m2026-02-16 19:42:49[0m [[32m[1minfo     [0m] [1mВозврат к списку врачей профессии репродуктолог для пользователя 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=back_to_doctors lineno=654[0m
+[2m2026-02-16 19:42:57[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=74[0m
+[2m2026-02-16 19:46:41[0m [[32m[1mdebug    [0m] [1mЛоггер debug                   [file] filename=conf.py func_name=<module> lineno=172[0m
+[2m2026-02-16 19:46:41[0m [[32m[1minfo     [0m] [1mЛоггер OK                      [file] filename=conf.py func_name=<module> lineno=173[0m
+[2m2026-02-16 19:46:41[0m [[32m[1minfo     [0m] [1mStarting bot                   [__main__] filename=main.py func_name=main lineno=26[0m
+[2m2026-02-16 19:46:41[0m [[32m[1mdebug    [0m] [1mLooking up time zone info from registry[0m
+[2m2026-02-16 19:46:41[0m [[32m[1minfo     [0m] [1mScheduler started             [0m
+[2m2026-02-16 19:46:41[0m [[32m[1mdebug    [0m] [1mLooking for jobs to run       [0m
+[2m2026-02-16 19:46:41[0m [[32m[1mdebug    [0m] [1mNo jobs; waiting until a job is added[0m
+[2m2026-02-16 19:46:42[0m [[31m[1mcritical [0m] [1mНе могу отравить сообщение     [__main__] filename=main.py func_name=main lineno=48
+Traceback (most recent call last):
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\main.py", line 46, in main
+    await bot.send_message(chat_id=-1002732338521, text='ТЕСТ')
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 2850, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\Freelance\Telegram_Bots\ClinicWriteBot\venv\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found[0m
+[2m2026-02-16 19:46:46[0m [[32m[1minfo     [0m] [1mcmd_start: пользователь 585896156 (AlexxxNikSib) 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=116[0m
+[2m2026-02-16 19:46:46[0m [[32m[1minfo     [0m] [1mПриветственное сообщение отправлено пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=cmd_start lineno=125[0m
+[2m2026-02-16 19:46:48[0m [[32m[1minfo     [0m] [1mmenu_appointment: пользователь 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=460[0m
+[2m2026-02-16 19:46:49[0m [[32m[1minfo     [0m] [1mСписок профессий показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=menu_appointment lineno=469[0m
+[2m2026-02-16 19:46:50[0m [[32m[1minfo     [0m] [1mselect_profession: пользователь 585896156, профессия=репродуктолог [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=485[0m
+[2m2026-02-16 19:46:50[0m [[32m[1minfo     [0m] [1mСписок врачей профессии репродуктолог показан пользователю 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_profession lineno=495[0m
+[2m2026-02-16 19:46:51[0m [[32m[1minfo     [0m] [1mselect_doctor: пользователь 585896156, callback_data=doc_shibanova_репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=509[0m
+[2m2026-02-16 19:46:51[0m [[32m[1mdebug    [0m] [1mИзвлечено: doctor_id=shibanova, profession=репродукто [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=525[0m
+[2m2026-02-16 19:46:51[0m [[32m[1minfo     [0m] [1mПоказ информации о враче: Шибанова Екатерина Игоревна, пользователь: 585896156 [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=542[0m
+[2m2026-02-16 19:46:51[0m [[32m[1minfo     [0m] [1mВидео отправлено для врача Шибанова Екатерина Игоревна [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=564[0m
+[2m2026-02-16 19:46:56[0m [[32m[1minfo     [0m] [1mСоранён photo_id для врача Шибанова Екатерина Игоревна [handlers.user_handlers] filename=user_handlers.py func_name=select_doctor lineno=588[0m
+[2m2026-02-16 21:31:08[0m [[32m[1minfo     [0m] [1mBot stopped!                   [__main__] filename=main.py func_name=<module> lineno=74[0m
